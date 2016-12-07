@@ -15,7 +15,7 @@ style: styles-2
 #Profile information
 name: Rob Koch
 tagline: Developer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+pic: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
 #sidebar links
 email: kochrt@gmail.com
