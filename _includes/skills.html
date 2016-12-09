@@ -1,53 +1,16 @@
 <section class="skills-section section">
     <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
-    <div class="skillset">        
+    <div class="skillset">  
+
+        {% for skill in page.skills %}
         <div class="item">
-            <h3 class="level-title">Java</h3>
+            <h3 class="level-title">{{ skill[0] }}</h3>
             <div class="level-bar">
-                <div class="level-bar-inner" data-level="98%">
+                <div class="level-bar-inner" data-level="{{ skill[1] }}">
                 </div>                                      
             </div><!--//level-bar-->                                 
         </div><!--//item-->
-        
-        <div class="item">
-            <h3 class="level-title">Swift</h3>
-            <div class="level-bar">
-                <div class="level-bar-inner" data-level="98%">
-                </div>                                      
-            </div><!--//level-bar-->                                 
-        </div><!--//item-->
-        
-        <div class="item">
-            <h3 class="level-title">Python</h3>
-            <div class="level-bar">
-                <div class="level-bar-inner" data-level="92%">
-                </div>                                      
-            </div><!--//level-bar-->                                 
-        </div><!--//item-->
-        
-        <div class="item">
-            <h3 class="level-title">Webdev</h3>
-            <div class="level-bar">
-                <div class="level-bar-inner" data-level="85%">
-                </div>                                      
-            </div><!--//level-bar-->                                 
-        </div><!--//item-->
-        
-        <div class="item">
-            <h3 class="level-title">Ruby on Rails</h3>
-            <div class="level-bar">
-                <div class="level-bar-inner" data-level="85%">
-                </div>                                      
-            </div><!--//level-bar-->                                 
-        </div><!--//item-->
-        
-        <div class="item">
-            <h3 class="level-title">Sketch &amp; Photoshop</h3>
-            <div class="level-bar">
-                <div class="level-bar-inner" data-level="60%">
-                </div>                                      
-            </div><!--//level-bar-->                                 
-        </div><!--//item-->
+        {% endfor %}
         
     </div>  
 </section><!--//skills-section-->

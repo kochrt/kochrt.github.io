@@ -1,22 +1,14 @@
 <section class="section projects-section">
     <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
-    <!--<div class="intro">
-        <p>Some things I've been working on on my own time or with others. </p>
-    </div><!--//intro-->
-    <div class="item">
-        <span class="project-title"><a href="https://www.pattersonbridge.com" target="_blank">Patterson Bridge</a></span> - <span class="project-tagline">Site to help students find other students to work on projects together. Why wait for a startup weekend to find talent and start your business? Written in Angular2 with Google's Firebase as a backend. </span>
-    </div><!--//item-->
-    <div class="item">
-        <span class="project-title"><a href="https://itunes.apple.com/us/app/patterson-bridge/id1178426060?mt=8" target="_blank">Patterson Bride iOS app</a></span> - 
-        <span class="project-tagline">Full-featured iOS client for Patterson Bridge. Written in Swift 3 for iPad and iPhone. </span>
-    </div><!--//item-->
-    <div class="item">
-        <span class="project-title"><a href="{{ site.baseurl }}/ping" target="_blank">Pîng</a></span> - <span class="project-tagline">Location based discovery app built with Swift and Firebase. Currently in Apple's TestFlight Beta program</span>
-    </div><!--//item-->
-    <div class="item">
-        <span class="project-title">GaggleInc</span> - <span class="project-tagline">Created a hybrid mobile app using the Ionic framework and AngularJS in a three-person Agile development environment </span>
-    </div><!--//item-->
-    <div class="item">
-        <span class="project-title"><a href="https://github.com/kochrt/ProjectDragonfly" target="_blank">Project Dragonfly</a></span> - <span class="project-tagline">Created an iOS app to encourage kids to explore their environment and ask scientific questions</span>
-    </div><!--//item-->
+    {% for proj in page.projects %}
+        <div class="item">
+            <span class="project-title">
+                {% if proj.url %}
+                <a href="{{ proj.url }}" target="_blank">{{ proj.label }}</a>
+                {% else %}
+                {{ proj.label }}
+                {% endif %}
+            </span> - <span class="project-tagline">{{ proj.details }}</span>
+        </div>
+    {% endfor %}
 </section><!--//section-->

@@ -1,7 +1,7 @@
 
 title: Rob Koch
 url: 'http://robko.ch'
-baseurl: 'http://robko.ch/' #change it according to your repository name
+# baseurl: 'http://robko.ch/' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
@@ -25,3 +25,4 @@ linkedin: kochrt
 github: kochrt
 
 #Update all the sections by editing the files inside _includes folder.
+
