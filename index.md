@@ -24,13 +24,13 @@ projects: [
     {
         label: "GaggleInc", 
         img: "gaggle",
-        details: "Created a hybrid mobile app using the Ionic framework and AngularJS in a three-person Agile development environment"
+        details: "Hybrid mobile app using the Ionic framework and AngularJS in a three-person Agile development environment"
     },
     {
         label: "Project Dragonfly", 
         img: "Project Dragonfly",
         url: "https://github.com/kochrt/ProjectDragonfly", 
-        details: "Created an iOS app to encourage kids to explore their environment and ask scientific questions"
+        details: "iOS app to encourage kids to explore their environment and ask scientific questions"
     }
 ]
 
