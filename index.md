@@ -78,15 +78,15 @@ experiences: [
 
 # Skills
 skills: [
+    ["Swift, XCode, iOS", 98%],
     [Java, 98%],
-    [Swift, 98%],
-    [Webdev, 92%],
-    [Python, 92%]
+    ["HTML, CSS, Javascript", 92%],
+    [Python, 92%],
+    ["Android, Android Studio", 88%]
 ]
 
 ---
 
-            
 {% include career-profile.html %}
             
 {% include projects.html %}
