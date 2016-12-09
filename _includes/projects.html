@@ -1,14 +1,27 @@
 <section class="section projects-section">
     <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
     {% for proj in page.projects %}
-        <div class="item">
-            <span class="project-title">
+        <div class="itemrow">
+            {% if proj.img %}
                 {% if proj.url %}
-                <a href="{{ proj.url }}" target="_blank">{{ proj.label }}</a>
+                <a href="{{ proj.url }}">
+                    <img src="/assets/images/{{ proj.img }}.png">
+                </a>
                 {% else %}
-                {{ proj.label }}
+                <img src="/assets/images/{{ proj.img }}.png">
                 {% endif %}
-            </span> - <span class="project-tagline">{{ proj.details }}</span>
+            {% endif %}
+
+            <div class="item">
+                <span class="project-title">
+                    {% if proj.url %}
+                    <a href="{{ proj.url }}" target="_blank">{{ proj.label }}</a>
+                    {% else %}
+                    {{ proj.label }}
+                    {% endif %}
+                </span> - <span class="project-tagline">{{ proj.details }}</span>
+            </div>
         </div>
+        
     {% endfor %}
 </section><!--//section-->

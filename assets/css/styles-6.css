@@ -224,9 +224,22 @@ p {
 .main-wrapper .projects-section .intro {
   margin-bottom: 30px;
 }
-.main-wrapper .projects-section .item {
+.main-wrapper .projects-section .itemrow {
+  display: flex;
+  flex-direction: row;
   margin-bottom: 15px;
+  box-sizing: border-box;
 }
+
+.main-wrapper .projects-section .itemrow img {
+  max-width: 30px;
+  max-height: 30px;
+  height: auto;
+  width: auto;
+  margin-right: 16px;
+  margin-top: 4px;
+}
+
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;

@@ -5,25 +5,30 @@ layout: default
 projects: [
     {
         label: "Patterson Bridge", 
+        img: "pb",
         url: "https://www.pattersonbridge.com", 
         details: "Site to help students find other students to work on projects together. Why wait for a startup weekend to find talent and start your business? Written in Angular2 with Google's Firebase as a backend."
     },
     {
         label: "Patterson Bridge iOS app", 
+        img: "pb",
         url: "https://itunes.apple.com/us/app/patterson-bridge/id1178426060?mt=8", 
         details: "Full-featured iOS client for Patterson Bridge. Written in Swift 3 for iPad and iPhone."
     },
     {
         label: "Pîng", 
+        img: "ping",
         url: "/ping", 
         details: "Location based discovery app built with Swift and Firebase. Currently in Apple's TestFlight Beta program"
     },
     {
         label: "GaggleInc", 
+        img: "goose copy",
         details: "Created a hybrid mobile app using the Ionic framework and AngularJS in a three-person Agile development environment"
     },
     {
         label: "Project Dragonfly", 
+        img: "Project Dragonfly",
         url: "https://github.com/kochrt/ProjectDragonfly", 
         details: "Created an iOS app to encourage kids to explore their environment and ask scientific questions"
     }
@@ -72,7 +77,7 @@ skills: [
     [Java, 98%],
     [Swift, 98%],
     [Python, 92%],
-    [Webdev, 85%]
+    [Webdev, 92%]
 ]
 
 ---
@@ -85,5 +90,4 @@ skills: [
 {% include experience.html %}
             
 {% include skills.html %}
-
 
