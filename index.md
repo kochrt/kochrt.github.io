@@ -38,6 +38,7 @@ projects: [
 experiences: [
     {
         title: "Cloud Engineering Intern",
+        img: "cardinal.png",
         company: "Cardinal Health, Columbus OH",
         time: "2016",
         details: [
@@ -47,6 +48,7 @@ experiences: [
     },
     {
         title: "Teaching Assistant",
+        img: "miami.png",
         company: "Miami University, Oxford OH",
         time: "2015",
         details: [
@@ -55,6 +57,7 @@ experiences: [
     },
     {
         title: "English Instructor",
+        img: "shaoxing.png",
         company: "Shaoxing University, Zhejiang China",
         time: "2013 - 2015",
         details: [
@@ -63,6 +66,7 @@ experiences: [
     },
     {
         title: "Research Fellow",
+        img: "proctergamble.png",
         company: "Procter & Gamble, Cincinnati OH",
         time: "2012",
         details: [
@@ -76,8 +80,8 @@ experiences: [
 skills: [
     [Java, 98%],
     [Swift, 98%],
-    [Python, 92%],
-    [Webdev, 92%]
+    [Webdev, 92%],
+    [Python, 92%]
 ]
 
 ---

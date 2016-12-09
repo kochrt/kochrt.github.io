@@ -193,6 +193,25 @@ p {
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
 }
+.main-wrapper .experiences-section .meta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.main-wrapper .experiences-section .meta .row-wrapper {
+  width: 100%;
+}
+.main-wrapper .experiences-section .meta .img-wrapper {
+  height: auto;
+  max-width: 30px;
+  margin-right: 16px;
+  margin-bottom: 4px;
+}
+.main-wrapper .experiences-section .meta .img-wrapper img {
+  max-width: 100%;
+  max-height: 100%;
+}
 .main-wrapper .upper-row {
   position: relative;
   overflow: hidden;
@@ -212,7 +231,6 @@ p {
   color: #97AAC3;
 }
 .main-wrapper .company {
-  margin-bottom: 10px;
   color: #97AAC3;
 }
 .main-wrapper .project-title {
