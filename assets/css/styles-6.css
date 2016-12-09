@@ -245,17 +245,22 @@ p {
   background: #6c92a3;
 }
 .footer {
-  padding: 30px;
-  padding-top: 60px;
+  padding: 15px;
+  padding-top: 30px;
 }
 .footer .copyright {
   line-height: 1.6;
-  color: #545E6C;
+  color: #c3c9d1;
   font-size: 13px;
 }
 .footer .fa-heart {
-  color: #fb866a;
+  color: #fcd5cc;
 }
+
+.footer a {
+  color: #9fa3a4;
+}
+
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {

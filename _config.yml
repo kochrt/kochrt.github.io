@@ -1,7 +1,7 @@
 
 title: Rob Koch
 url: 'http://robko.ch'
-baseurl: 'http://kochrt.github.io/' #change it according to your repository name
+baseurl: 'http://robko.ch/' #change it according to your repository name
 
 
 # Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
