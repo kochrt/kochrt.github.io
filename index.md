@@ -23,7 +23,7 @@ projects: [
     },
     {
         label: "GaggleInc", 
-        img: "goose copy",
+        img: "gaggle",
         details: "Created a hybrid mobile app using the Ionic framework and AngularJS in a three-person Agile development environment"
     },
     {
