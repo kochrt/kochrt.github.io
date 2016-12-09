@@ -15,7 +15,7 @@ projects: [
     },
     {
         label: "Pîng", 
-        url: "robko.ch/ping", 
+        url: "/ping", 
         details: "Location based discovery app built with Swift and Firebase. Currently in Apple's TestFlight Beta program"
     },
     {

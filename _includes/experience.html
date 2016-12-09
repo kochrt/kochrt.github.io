@@ -1,58 +1,21 @@
 <section class="section experiences-section">
     <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
     
-    <div class="item">
+    {% for experience in page.experiences %}
+        <div class="item">
         <div class="meta">
             <div class="upper-row">
-                <h3 class="job-title">Cloud Engineering Intern</h3>
-                <div class="time">2016</div>
+                <h3 class="job-title">{{ experience.title }}</h3>
+                <div class="time">{{ experience.time }}</div>
             </div><!--//upper-row-->
-            <div class="company">Cardinal Health, Columbus OH</div>
+            <div class="company">{{ experience.company }}</div>
         </div><!--//meta-->
         <div class="details">
-            <p>Redesigned and managed the internal engagement process for requesting Amazon Web Services (AWS) resources, streamlining the process by which resources are provisioned </p>  
-            <p>Automated solutions for logging into VDI, sending customer emails based on data from an Excel spreadsheet, and entering queries into Neo4j graph database all using Python </p>
+            {% for sub in experience.details %}
+                <p>{{ sub }}</p>
+            {% endfor %}
         </div><!--//details-->
     </div><!--//item-->
+    {% endfor %}
     
-    <div class="item">
-        <div class="meta">
-            <div class="upper-row">
-                <h3 class="job-title">Teaching Assistant</h3>
-                <div class="time">2015</div>
-            </div><!--//upper-row-->
-            <div class="company">Miami University, Oxford OH</div>
-        </div><!--//meta-->
-        <div class="details">
-            <p>Proctored a computer lab for object-oriented programming course, focusing on good coding practices, readability, and object-oriented design </p>
-        </div><!--//details-->
-    </div><!--//item-->
-    
-    <div class="item">
-        <div class="meta">
-            <div class="upper-row">
-                <h3 class="job-title">English Instructor</h3>
-                <div class="time">2013 - 2015</div>
-            </div><!--//upper-row-->
-            <div class="company">Shaoxing University, Zhejiang</div>
-        </div><!--//meta-->
-        <div class="details">
-            <p>Taught comprehensive college-level English course to students while learning Chinese </p>  
-        </div><!--//details-->
-    </div><!--//item-->
-
-    <div class="item">
-        <div class="meta">
-            <div class="upper-row">
-                <h3 class="job-title">Research Fellow</h3>
-                <div class="time">2012</div>
-            </div><!--//upper-row-->
-            <div class="company">Procter & Gamble, Cincinnati OH</div>
-        </div><!--//meta-->
-        <div class="details">
-            <p>As part of the biometrics group, conducted product research and consumer testing using various biometric tools and human factors, including facial expression coding, eye tracking using Tobii, implicit cognition studies, and Facial Action Coding System (FACS) </p>
-            <p>Led work on developing new technical methods for evaluating product performance based on sensory feedback from consumers (Pantene) </p>  
-        </div><!--//details-->
-    </div><!--//item-->
-
 </section><!--//section-->
