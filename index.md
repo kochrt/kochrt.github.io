@@ -12,30 +12,30 @@ projects: [
         label: "Patterson Bridge", 
         img: "pb",
         url: "https://www.pattersonbridge.com", 
-        details: "Site to help students find other students to work on projects together. Why wait for a startup weekend to find talent and start your business? Written in <strong>Angular2</strong> with Google's <strong>Firebase</strong> as a backend."
+        details: "Site to help students find other students to work on projects together. Why wait for a startup weekend to find talent and start your business? Written in Angular2 with Google's Firebase as a backend."
     },
     {
         label: "Patterson Bridge iOS app", 
         img: "pb",
         url: "https://itunes.apple.com/us/app/patterson-bridge/id1178426060?mt=8", 
-        details: "Full-featured iOS client for Patterson Bridge. Written in <strong>Swift 3</strong> for iPad and iPhone."
+        details: "Full-featured iOS client for Patterson Bridge. Written in Swift 3 for iPad and iPhone."
     },
     {
-        label: "Pîng", 
+        label: "Pîng",
         img: "ping",
         url: "/ping", 
-        details: "Location based discovery app built with <strong>Swift</strong> and <strong>Firebase</strong>. Currently in Apple's TestFlight Beta program"
+        details: "Location based discovery app built with Swift and Firebase. Currently in Apple's TestFlight Beta program"
     },
     {
         label: "GaggleInc", 
         img: "gaggle",
-        details: "Hybrid mobile app using the <strong>Ionic</strong> framework and <strong>Angular2</strong> in a three-person Agile development environment"
+        details: "Hybrid mobile app using the Ionic framework and Angular2 in a three-person Agile development environment"
     },
     {
         label: "Project Dragonfly", 
         img: "Project Dragonfly",
         url: "https://github.com/kochrt/ProjectDragonfly", 
-        details: "iOS app to encourage kids to explore their environment and ask scientific questions. <strong>Swift 3</strong>"
+        details: "Swift 3 iOS app to encourage kids to explore their environment and ask scientific questions"
     }
 ]
 
@@ -85,6 +85,7 @@ experiences: [
 skills: [
     ["Swift, XCode, iOS", 98%],
     [Java, 98%],
+    ["Angular2, Typescript", 92%],
     ["HTML, CSS, Javascript", 92%],
     [Python, 92%],
     ["Android, Android Studio", 88%]
