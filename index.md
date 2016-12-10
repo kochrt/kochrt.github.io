@@ -1,36 +1,41 @@
 ---
 layout: default
 
+# About me
+about: [
+    "Software engineer and general tinkerer - I like to code and play with new technology. I'm currently a senior at Miami University, and most recently was a Cloud Engineering Intern at Cardinal Health in Columbus, Ohio, where I had the opportunity to work with AWS and do a lot of python scripting. I can be bribed with good Chinese food."
+]
+
 # Projects
 projects: [
     {
         label: "Patterson Bridge", 
         img: "pb",
         url: "https://www.pattersonbridge.com", 
-        details: "Site to help students find other students to work on projects together. Why wait for a startup weekend to find talent and start your business? Written in Angular2 with Google's Firebase as a backend."
+        details: "Site to help students find other students to work on projects together. Why wait for a startup weekend to find talent and start your business? Written in <strong>Angular2</strong> with Google's <strong>Firebase</strong> as a backend."
     },
     {
         label: "Patterson Bridge iOS app", 
         img: "pb",
         url: "https://itunes.apple.com/us/app/patterson-bridge/id1178426060?mt=8", 
-        details: "Full-featured iOS client for Patterson Bridge. Written in Swift 3 for iPad and iPhone."
+        details: "Full-featured iOS client for Patterson Bridge. Written in <strong>Swift 3</strong> for iPad and iPhone."
     },
     {
         label: "Pîng", 
         img: "ping",
         url: "/ping", 
-        details: "Location based discovery app built with Swift and Firebase. Currently in Apple's TestFlight Beta program"
+        details: "Location based discovery app built with <strong>Swift</strong> and <strong>Firebase</strong>. Currently in Apple's TestFlight Beta program"
     },
     {
         label: "GaggleInc", 
         img: "gaggle",
-        details: "Hybrid mobile app using the Ionic framework and AngularJS in a three-person Agile development environment"
+        details: "Hybrid mobile app using the <strong>Ionic</strong> framework and <strong>Angular2</strong> in a three-person Agile development environment"
     },
     {
         label: "Project Dragonfly", 
         img: "Project Dragonfly",
         url: "https://github.com/kochrt/ProjectDragonfly", 
-        details: "iOS app to encourage kids to explore their environment and ask scientific questions"
+        details: "iOS app to encourage kids to explore their environment and ask scientific questions. <strong>Swift 3</strong>"
     }
 ]
 

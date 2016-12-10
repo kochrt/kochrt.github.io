@@ -1,6 +1,8 @@
 <section class="section summary-section">
 <h2 class="section-title"><i class="fa fa-user"></i>About me</h2>
 <div class="summary">
-    <p>Software engineer and general tinkerer - I like to code and play with new technology. I'm currently a senior at Miami University, and most recently was a Cloud Engineering Intern at Cardinal Health in Columbus, Ohio, where I had the opportunity to work with AWS and do a lot of python scripting. I can be bribed with good Chinese food. </p>
+    {% for info in page.about %}
+        <p>{{ info }}</p>
+    {% endfor %}
 </div><!--//summary-->
 </section><!--//section-->
