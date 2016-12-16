@@ -204,12 +204,12 @@ p {
 }
 .main-wrapper .experiences-section .meta .img-wrapper {
   height: auto;
-  max-width: 30px;
+  width: 30px;
   margin-right: 16px;
   margin-bottom: 4px;
 }
 .main-wrapper .experiences-section .meta .img-wrapper img {
-  max-width: 100%;
+  width: 30px;
   max-height: 100%;
 }
 .main-wrapper .upper-row {

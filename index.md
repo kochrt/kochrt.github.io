@@ -3,7 +3,7 @@ layout: default
 
 # About me
 about: [
-    "Software engineer and general tinkerer - I like to code and play with new technology. I'm currently a senior at Miami University, and most recently was a Cloud Engineering Intern at Cardinal Health in Columbus, Ohio, where I had the opportunity to work with AWS and do a lot of python scripting. I can be bribed with good Chinese food."
+    "Software engineer and general tinkerer - I like to code and play with new technology. Currently doing iOS and web development; otherwise most recently was a Cloud Engineering Intern at Cardinal Health, where I had the opportunity to work with AWS and do a lot of python scripting. I can be bribed with good Chinese food."
 ]
 
 # Projects
@@ -42,6 +42,15 @@ projects: [
 # Work experience
 experiences: [
     {
+        title: "Software Engineer",
+        img: "cfs.png",
+        company: "Cash Flow Solutions, Oxford OH",
+        time: "Current",
+        details: [
+            "Migrated company's website from WordPress to an extensible, Jekyll-based static site"
+        ]
+    },
+    {
         title: "Cloud Engineering Intern",
         img: "cardinal.png",
         company: "Cardinal Health, Columbus OH",
@@ -60,15 +69,15 @@ experiences: [
             "Proctored a computer lab for object-oriented programming course, focusing on good coding practices, readability, and object-oriented design"
         ]
     },
-    {
-        title: "English Instructor",
-        img: "shaoxing.png",
-        company: "Shaoxing University, Zhejiang China",
-        time: "2013 - 2015",
-        details: [
-            "Taught comprehensive college-level English course to students while learning Chinese"
-        ]
-    },
+    # {
+    #     title: "English Instructor",
+    #     img: "shaoxing.png",
+    #     company: "Shaoxing University, Zhejiang China",
+    #     time: "2013 - 2015",
+    #     details: [
+    #         "Taught comprehensive college-level English course to students while learning Chinese"
+    #     ]
+    # },
     {
         title: "Research Fellow",
         img: "proctergamble.png",
