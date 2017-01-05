@@ -3,11 +3,17 @@ layout: default
 
 # About me
 about: [
-    "Software engineer and general tinkerer - I like to code and play with new technology. Currently doing iOS and web development; otherwise most recently was a Cloud Engineering Intern at Cardinal Health, where I had the opportunity to work with AWS and do a lot of python scripting. I can be bribed with good Chinese food."
+    "Software engineer and general tinkerer - I like to code and play with new technology. Currently doing iOS and web development; otherwise was most recently in Cardinal Health's cloud, where I had the opportunity to work with AWS and do a lot of python scripting. I can be bribed with good Chinese food."
 ]
 
 # Projects
 projects: [
+    {
+        label: "JobsBox",
+        img: "briefcase",
+        url: "https://github.com/kochrt/jobsbox",
+        details: "Python script to apply to jobs from whoishiring.io"
+    },
     {
         label: "Patterson Bridge", 
         img: "pb",
@@ -44,11 +50,9 @@ experiences: [
     {
         title: "Software Engineer",
         img: "cfs.png",
-        company: "Cash Flow Solutions, Oxford OH",
+        company: "CFS, Oxford OH",
         time: "Current",
-        details: [
-            "Migrated company's website from WordPress to an extensible, Jekyll-based static site"
-        ]
+        details: [ ]
     },
     {
         title: "Cloud Engineering Intern",
@@ -97,9 +101,9 @@ skills: [
     ["Angular2, Typescript", 92%],
     ["HTML, CSS, Javascript", 92%],
     [Python, 92%],
-    ["Android, Android Studio", 88%]
+    ["Android, Android Studio", 88%],
+    ["Learning new technologies", 100%]
 ]
-
 ---
 
 {% include career-profile.html %}
