@@ -7,25 +7,25 @@
             
             {% if proj.img %}
                 {% if proj.url %}
-                <a href="{{ proj.url }}" target="_blank">
-                    <img src="/assets/images/{{ proj.img }}.png">
-                </a>
+                    <a href="{{ proj.url }}" target="_blank">
+                        <img src="/assets/images/{{ proj.img }}.png">
+                    </a>
                 {% else %}
-                <img src="/assets/images/{{ proj.img }}.png">
+                    <img src="/assets/images/{{ proj.img }}.png">
                 {% endif %}
             {% endif %}
 
             <div class="item">
                 <span class="project-title">
                     {% if proj.url %}
-                    <a href="{{ proj.url }}" target="_blank">{{ proj.label }}</a>
+                        <a href="{{ proj.url }}" target="_blank">{{ proj.label }}</a>
                     {% else %}
-                    {{ proj.label }}
+                        {{ proj.label }}
                     {% endif %}
                 </span> - <span class="project-tagline">{{ proj.details }}</span>
             </div>
         </div>
         
     {% endfor %}
-    
+
 </section><!--//section-->
