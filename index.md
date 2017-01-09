@@ -12,7 +12,7 @@ projects: [
         label: "JobsBox",
         img: "briefcase",
         url: "https://github.com/kochrt/jobsbox",
-        details: "Python script to apply to jobs from whoishiring.io"
+        details: "Python webscraper for whoishiring.io based on keywords"
     },
     {
         label: "Patterson Bridge", 
