@@ -24,7 +24,21 @@
                     {% endif %}
                 </span> - <span class="project-tagline">{{ proj.details }}</span>
             </div>
-        </div>
+
+            {% if proj.stack %}
+            <div class="item-stack">
+                {% for tech in proj.stack %}
+                    <div class="tech">
+                        <div>
+                            <img src="/assets/images/{{ tech[0] }}" alt="{{ tech[1] }}">
+                            <span class="tooltip">{{ tech[1] }}</span>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+
+    </div>
         
     {% endfor %}
 

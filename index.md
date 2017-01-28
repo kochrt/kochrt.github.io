@@ -12,36 +12,61 @@ projects: [
         label: "JobsBox",
         img: "briefcase",
         url: "https://github.com/kochrt/jobsbox",
-        details: "Python webscraper for whoishiring.io based on keywords"
+        details: "Python webscraper for whoishiring.io based on keywords",
+        stack: [
+            ["Python.png", "Python"]
+            ]
     },
     {
         label: "Patterson Bridge", 
         img: "pb",
         url: "https://www.pattersonbridge.com", 
-        details: "Site to help students find other students to work on projects together. Why wait for a startup weekend to find talent and start your business? Written in Angular2 with Google's Firebase as a backend."
+        details: "Site to help students find other students to work on projects together. Why wait for a startup weekend to find talent and start your business? Written in Angular2 with Google's Firebase as a backend.",
+        stack: [
+            ["Angular2.png", "Angular2"], 
+            ["Firebase.jpeg", "Firebase"]
+            ]
     },
     {
         label: "Patterson Bridge iOS app", 
         img: "pb",
         url: "https://itunes.apple.com/us/app/patterson-bridge/id1178426060?mt=8", 
-        details: "Full-featured iOS client for Patterson Bridge. Written in Swift 3 for iPad and iPhone."
+        details: "Full-featured iOS client for Patterson Bridge. Written in Swift 3 for iPad and iPhone.",
+        stack: [
+            ["iOS.png", "iOS"], 
+            ["Swift.jpeg", "Swift"], 
+            ["Firebase.jpeg", "Firebase"]
+            ]
     },
     {
         label: "Pîng iOS app",
         img: "ping",
         url: "/ping", 
-        details: "Location based discovery app built with Swift and Firebase. Currently in Apple's TestFlight Beta program"
+        details: "Location based discovery app built with Swift and Firebase. Currently in Apple's TestFlight Beta program",
+        stack: [
+            ["iOS.png", "iOS"],
+            ["Swift.jpeg", "Swift"],
+            ["Firebase.jpeg", "Firebase"]
+        ]
     },
     {
         label: "GaggleInc", 
         img: "gaggle",
-        details: "Hybrid mobile app using the Ionic framework and Angular2 in a three-person Agile development environment"
+        details: "Hybrid mobile app using the Ionic framework and Angular2 in a three-person Agile development environment",
+        stack: [
+            ["Angular2.png", "Angular2"],
+            ["Ionic.png", "Ionic"]
+        ]
     },
     {
         label: "Project Dragonfly iOS app", 
         img: "Project Dragonfly",
         url: "https://github.com/kochrt/ProjectDragonfly", 
-        details: "Swift 3 iOS app to encourage kids to explore their environment and ask scientific questions"
+        details: "Swift 3 iOS app to encourage kids to explore their environment and ask scientific questions",
+        stack: [
+            ["iOS.png", "iOS"], 
+            ["Swift.jpeg", "Swift"]
+        ]
     }
 ]
 

@@ -246,8 +246,11 @@ p {
     .itemrow {
       display: flex;
       flex-direction: row;
+
       margin-bottom: 15px;
       box-sizing: border-box;
+
+      
       img {
         max-width: 30px;
         max-height: 30px;
@@ -255,6 +258,78 @@ p {
         width: auto;
         margin-right: 16px;
         margin-top: 4px;
+      }
+      
+      .item {
+        flex-grow: 1;
+        padding-right: 8px;
+      }
+
+      .item-stack {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 50px;
+
+        .tech {
+          
+          div {
+            position: relative;
+          }
+
+          div:hover {
+            img {
+              filter: none;
+              -webkit-filter: grayscale(0%);
+              opacity: 1
+            }
+            .tooltip {
+              visibility: visible;
+            }
+          }
+
+          img {
+            max-width: 20px;
+            max-height: 20px;
+            width: auto;
+            margin-right: 4px;
+            margin-top: 4px;
+
+            opacity: 0.55;
+            -webkit-filter: grayscale(10%); /* Chrome 19+ & Safari 6+ */
+          }
+
+          .tooltip {
+            visibility: hidden;
+            width: 90px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            opacity: 1;
+
+            position: absolute;
+            z-index: 1;
+
+            top: 140%;
+            left: 50%;
+            margin-left: -45px;
+
+            font-size: 1.2rem;
+            font-weight: 600;
+          }
+
+          .tooltip::after {
+            content: " ";
+            position: absolute;
+            bottom: 100%;  /* At the top of the tooltip */
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: transparent transparent black transparent;
+          }
+        }
       }
     }
   }
