@@ -27,7 +27,7 @@ projects: [
         details: "Full-featured iOS client for Patterson Bridge. Written in Swift 3 for iPad and iPhone."
     },
     {
-        label: "Pîng",
+        label: "Pîng iOS app",
         img: "ping",
         url: "/ping", 
         details: "Location based discovery app built with Swift and Firebase. Currently in Apple's TestFlight Beta program"
@@ -38,7 +38,7 @@ projects: [
         details: "Hybrid mobile app using the Ionic framework and Angular2 in a three-person Agile development environment"
     },
     {
-        label: "Project Dragonfly", 
+        label: "Project Dragonfly iOS app", 
         img: "Project Dragonfly",
         url: "https://github.com/kochrt/ProjectDragonfly", 
         details: "Swift 3 iOS app to encourage kids to explore their environment and ask scientific questions"
