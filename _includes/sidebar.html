@@ -33,11 +33,22 @@
             {% if site.twitter %}
             <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/{{site.twitter}}" target="_blank">{{site.twitter}}</a></li>
             {% endif %}
-
-            <li class="pdf"><i class="fa fa-file-pdf-o"></i><a href="/resume.pdf" target="_blank">Resume PDF</a></li>
             
+            {% if site.pdf %}
+                {% if site.light %}
+
+                {% else %}
+                    <li class="pdf"><i class="fa fa-file-pdf-o"></i><a href="/{{ site.pdf }}" target="_blank">Resume PDF</a></li>
+                {% endif %}
+            {% endif %}
+
         </ul>
     </div><!--//contact-container-->
     {% include education.html %}
+    
+    {% if site.light %}
+        {% include skills-sidebar.html %}
+    {% endif %}
+
     {% include language.html %}
 </div><!--//sidebar-wrapper-->

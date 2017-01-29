@@ -5,10 +5,14 @@
     <div class="item">
         <div class="meta">
             
-            {% if experience.img %}
-                <div class="img-wrapper">
-                    <img src="/assets/images/{{ experience.img }}">
-                </div>
+            {% if site.light %}
+
+            {% else %}
+                {% if experience.img %}
+                    <div class="img-wrapper">
+                        <img src="/assets/images/{{ experience.img }}">
+                    </div>
+                {% endif %}
             {% endif %}
 
             <div class="row-wrapper">

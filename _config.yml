@@ -12,6 +12,8 @@ url: 'http://robko.ch'
 # style: styles-5
 style: styles-6
 
+# removes images, moves skills to sidebar (more printer friendly)
+light: true
 
 #Profile information
 name: Rob Koch
@@ -24,5 +26,5 @@ phone: 513-593-5938
 website: robko.ch #do not add http://
 linkedin: kochrt
 github: kochrt
-
+pdf: Resume.pdf
 #Update all the sections by editing the files inside _includes folder.

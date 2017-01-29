@@ -1,0 +1,10 @@
+<div class="skills-container container-block">
+    <h2 class="container-block-title">Technologies</h2>
+    <ul class="list-unstyled interests-list">
+        
+        {% for skill in page.skills %}
+        <li>{{ skill[0] }}</li>
+        {% endfor %}
+
+    </ul>
+</div>

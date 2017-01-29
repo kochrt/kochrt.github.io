@@ -93,7 +93,7 @@ experiences: [
         title: "Teaching Assistant",
         img: "miami.png",
         company: "Miami University, Oxford OH",
-        time: "2015",
+        time: "2015, 2017",
         details: [
             "Proctored a computer lab for object-oriented programming course, focusing on good coding practices, readability, and object-oriented design"
         ]
@@ -127,7 +127,7 @@ skills: [
     ["HTML, CSS, Javascript", 92%],
     [Python, 92%],
     ["Android, Android Studio", 88%],
-    ["Learning new technologies", 100%]
+    ["AWS", 88%]
 ]
 ---
 
@@ -136,5 +136,10 @@ skills: [
 {% include projects.html %}
 
 {% include experience.html %}
-            
+
+{% if site.light %}
+
+{% else %}
 {% include skills.html %}
+{% endif %}            
+

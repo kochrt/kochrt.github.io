@@ -17,8 +17,11 @@ layout: compress
             
         </div><!--//main-body-->
     </div>
- 
+{% if site.light %}
+
+{% else %}
 {% include footer.html %}
+{% endif %} 
  
 {% include scripts.html %}
 </body>
