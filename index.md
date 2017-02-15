@@ -75,9 +75,11 @@ experiences: [
     {
         title: "Software Engineer",
         img: "cfs.png",
-        company: "CFS, Oxford OH",
+        company: "Cash Flow Solutions, Oxford OH",
         time: "Current",
-        details: [ ]
+        details: [ 
+            "Front end web development with Bootstrap and jQuery"
+        ]
     },
     {
         title: "Cloud Engineering Intern",
