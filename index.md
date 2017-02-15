@@ -87,7 +87,7 @@ experiences: [
         company: "Cardinal Health, Columbus OH",
         time: "2016",
         details: [
-            "Redesigned and managed the internal engagement process for requesting Amazon Web Services (AWS) resources, streamlining the process by which resources are provisioned",
+            "Redesigned and managed the internal engagement process for requesting Amazon Web Services (AWS) resources, streamlining the resource provisioning process",
             "Automated solutions for logging into VDI, sending customer emails based on data from an Excel spreadsheet, and entering queries into Neo4j graph database all using Python"
         ]
     },
