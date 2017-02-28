@@ -123,7 +123,13 @@ experiences: [
 
 # Skills
 skills: [
-    ["So many", 100%]
+    ["Swift, XCode, iOS", 98%],
+    [Java, 98%],
+    ["Angular2, Typescript", 92%],
+    ["HTML, CSS, Javascript", 92%],
+    [Python, 92%],
+    ["Android, Android Studio", 88%],
+    ["AWS", 88%]
 ]
 ---
 
