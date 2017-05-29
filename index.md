@@ -15,7 +15,7 @@ projects: [
         details: "Python webscraper for whoishiring.io based on keywords",
         stack: [
             ["Python.png", "Python"]
-            ]
+        ]
     },
     {
         label: "Patterson Bridge", 
@@ -25,7 +25,7 @@ projects: [
         stack: [
             ["Angular2.png", "Angular2"], 
             ["Firebase.jpeg", "Firebase"]
-            ]
+        ]
     },
     {
         label: "Patterson Bridge iOS app", 
@@ -36,7 +36,7 @@ projects: [
             ["iOS.png", "iOS"], 
             ["Swift.jpeg", "Swift"], 
             ["Firebase.jpeg", "Firebase"]
-            ]
+        ]
     },
     {
         label: "Pîng iOS app",
@@ -74,9 +74,18 @@ projects: [
 experiences: [
     {
         title: "Software Engineer",
+        img: "cladwell.png",
+        company: "Cladwell, Cincinnati, OH",
+        time: "Current",
+        details: [
+            "iOS Development"
+        ]
+    },
+    {
+        title: "Software Engineer",
         img: "cfs.png",
         company: "Cash Flow Solutions, Oxford OH",
-        time: "Current",
+        time: "2016-2017",
         details: [ 
             "Front end web development with Bootstrap and jQuery"
         ]
@@ -100,15 +109,15 @@ experiences: [
             "Proctored a computer lab for object-oriented programming course, focusing on good coding practices, readability, and object-oriented design"
         ]
     },
-    # {
-    #     title: "English Instructor",
-    #     img: "shaoxing.png",
-    #     company: "Shaoxing University, Zhejiang China",
-    #     time: "2013 - 2015",
-    #     details: [
-    #         "Taught comprehensive college-level English course to students while learning Chinese"
-    #     ]
-    # },
+    {
+        title: "English Instructor",
+        img: "shaoxing.png",
+        company: "Shaoxing University, Zhejiang China",
+        time: "2013 - 2015",
+        details: [
+            "Taught comprehensive college-level English course to students while learning Chinese"
+        ]
+    },
     {
         title: "Research Fellow",
         img: "proctergamble.png",
