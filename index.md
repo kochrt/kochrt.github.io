@@ -9,6 +9,18 @@ about: [
 # Projects
 projects: [
     {
+        label: "Pîng iOS app",
+        img: "ping",
+        url: "/ping", 
+        details: "Location based discovery app built with Swift and AWS. Currently in Apple's TestFlight Beta program",
+        stack: [
+            ["iOS.png", "iOS"],
+            ["Swift.jpeg", "Swift"],
+            ["mongo.jpg", "MongoDB"],
+            ["aws.png", "Amazon Web Services"]
+        ]
+    },
+    {
         label: "JobsBox",
         img: "briefcase",
         url: "https://github.com/kochrt/jobsbox",
@@ -35,17 +47,6 @@ projects: [
         stack: [
             ["iOS.png", "iOS"], 
             ["Swift.jpeg", "Swift"], 
-            ["Firebase.jpeg", "Firebase"]
-        ]
-    },
-    {
-        label: "Pîng iOS app",
-        img: "ping",
-        url: "/ping", 
-        details: "Location based discovery app built with Swift and AWS. Currently in Apple's TestFlight Beta program",
-        stack: [
-            ["iOS.png", "iOS"],
-            ["Swift.jpeg", "Swift"],
             ["Firebase.jpeg", "Firebase"]
         ]
     },
@@ -87,8 +88,8 @@ experiences: [
         company: "Cash Flow Solutions, Oxford OH",
         time: "2016-2017",
         details: [ 
-            "Migrated company website from Wordpress to independent HTML/CSS/JS",
-            "Created an embeddable javascript plugin (for use by clients to accept payments) as a one-line alternative to interacting directly with our API"
+            "Created an embeddable javascript plugin (for use by clients to accept payments) as a one-line alternative to interacting directly with our API",
+            "Migrated company website from Wordpress to independent HTML/CSS/JS"
         ]
     },
     {
