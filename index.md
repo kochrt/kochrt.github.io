@@ -78,7 +78,7 @@ experiences: [
         company: "Cladwell, Cincinnati, OH",
         time: "Current",
         details: [
-            "iOS Development"
+            "All-aspect iOS Development - quickly iterated features in response to market demands in a fast-paced startup environment"
         ]
     },
     {
@@ -87,7 +87,8 @@ experiences: [
         company: "Cash Flow Solutions, Oxford OH",
         time: "2016-2017",
         details: [ 
-            "Front end web development with Bootstrap and jQuery"
+            "Migrated company website from Wordpress to independent HTML/CSS/JS",
+            "Created an embeddable javascript plugin (for use by clients to accept payments) as a one-line alternative to interacting directly with our API"
         ]
     },
     {
@@ -142,7 +143,11 @@ skills: [
 ]
 ---
 
+{% if site.light %}
+
+{% else %}
 {% include career-profile.html %}
+{% endif %}  
             
 {% include projects.html %}
 
