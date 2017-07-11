@@ -42,7 +42,7 @@ projects: [
         label: "Pîng iOS app",
         img: "ping",
         url: "/ping", 
-        details: "Location based discovery app built with Swift and Firebase. Currently in Apple's TestFlight Beta program",
+        details: "Location based discovery app built with Swift and AWS. Currently in Apple's TestFlight Beta program",
         stack: [
             ["iOS.png", "iOS"],
             ["Swift.jpeg", "Swift"],
