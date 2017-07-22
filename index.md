@@ -11,7 +11,7 @@ projects: [
     {
         label: "Pîng iOS app",
         img: "ping",
-        url: "/ping", 
+        url: "https://itunes.apple.com/us/app/p%C3%AEng-color-tag/id1251194813?ls=1&mt=8", 
         details: "Location based discovery app built with Swift and AWS. Currently in Apple's TestFlight Beta program",
         stack: [
             ["iOS.png", "iOS"],
