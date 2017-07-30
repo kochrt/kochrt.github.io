@@ -12,7 +12,7 @@ projects: [
         label: "Pîng iOS app",
         img: "ping",
         url: "https://itunes.apple.com/us/app/p%C3%AEng-color-tag/id1251194813?ls=1&mt=8", 
-        details: "Location based discovery app built with Swift and AWS.",
+        details: "Location based discovery app built with Swift and a <a href=\"https://www.perfect.org\">Swift Perfect</a> REST API on AWS.",
         stack: [
             ["iOS.png", "iOS"],
             ["Swift.jpeg", "Swift"],
@@ -24,7 +24,7 @@ projects: [
         label: "JobsBox",
         img: "briefcase",
         url: "https://github.com/kochrt/jobsbox",
-        details: "Python webscraper for whoishiring.io based on keywords",
+        details: "Python webscraper for <a href=\"https://whoishiring.io\">whoishiring.io</a> based on keywords",
         stack: [
             ["Python.png", "Python"]
         ]
@@ -76,7 +76,9 @@ experiences: [
     {
         title: "Software Engineer",
         img: "cladwell.png",
-        company: "Cladwell, Cincinnati, OH",
+        company: "Cladwell",
+        url: "https://cladwell.com",
+        location: "Cincinnati, OH",
         time: "Current",
         details: [
             "All-aspect iOS Development - quickly iterated features in response to market demands in a fast-paced startup environment"
@@ -85,7 +87,9 @@ experiences: [
     {
         title: "Software Engineer",
         img: "cfs.png",
-        company: "Cash Flow Solutions, Oxford OH",
+        company: "Cash Flow Solutions",
+        url: "https://followthefrog.com",
+        location: "Oxford, OH",
         time: "2016-2017",
         details: [ 
             "Created an embeddable javascript plugin (for use by clients to accept payments) as a one-line alternative to interacting directly with our API",
@@ -95,7 +99,9 @@ experiences: [
     {
         title: "Cloud Engineering Intern",
         img: "cardinal.png",
-        company: "Cardinal Health, Columbus OH",
+        company: "Cardinal Health",
+        url: "https://cardinalhealth.com",
+        location: "Columbus, OH",
         time: "2016",
         details: [
             "Redesigned and managed the internal engagement process for requesting Amazon Web Services (AWS) resources, streamlining the resource provisioning process",
@@ -105,7 +111,9 @@ experiences: [
     {
         title: "Teaching Assistant",
         img: "miami.png",
-        company: "Miami University, Oxford OH",
+        company: "Miami University",
+        url: "https://miamioh.edu",
+        location: "Oxford, OH",
         time: "2015, 2017",
         details: [
             "Proctored a computer lab for object-oriented programming course, focusing on good coding practices, readability, and object-oriented design"
@@ -114,7 +122,9 @@ experiences: [
     {
         title: "English Instructor",
         img: "shaoxing.png",
-        company: "Shaoxing University, Zhejiang China",
+        company: "Shaoxing University",
+        url: "https://en.wikipedia.org/wiki/Shaoxing_University",
+        location: "Shaoxing, China",
         time: "2013 - 2015",
         details: [
             "Taught comprehensive college-level English course to students while learning Chinese"
@@ -123,7 +133,9 @@ experiences: [
     {
         title: "Research Fellow",
         img: "proctergamble.png",
-        company: "Procter & Gamble, Cincinnati OH",
+        company: "Procter & Gamble",
+        url: "pg.com",
+        location: "Cincinnati, OH",
         time: "2012",
         details: [
             "As part of the biometrics group, conducted product research and consumer testing using various biometric tools and human factors, including facial expression coding, eye tracking using Tobii, implicit cognition studies, and Facial Action Coding System (FACS)",
