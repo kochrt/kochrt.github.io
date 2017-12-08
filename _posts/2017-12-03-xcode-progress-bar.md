@@ -27,7 +27,7 @@ class ProgressBar {
     }
 }
 ```
-<br><br>
+<br>
 The following code produces the output below it:  
 ```swift
 let total = 1000
@@ -61,7 +61,7 @@ let p = ProgressBar()
 |+++++++++++++++++++-|
 |++++++++++++++++++++|
 ```
-<br><br>
+<br>
 You can also output an arbitrarily complete progress bar:
 ```swift
 p.progressLine(0.68)  // |++++++++++++++------|

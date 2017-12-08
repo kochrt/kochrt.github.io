@@ -343,9 +343,9 @@ p {
 
 .post-wrapper {
   background: #fff;
-  padding: 60px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding: 60px 150px 15px 150px;
+  // padding-left: 150px;
+  // padding-right: 150px;
 
   font-size: 1.3em;
   
@@ -388,6 +388,11 @@ p {
   a {
     color: #9fa3a4;
   }
+}
+
+.post-footer {
+  padding: 15px;
+  background: #fff;
 }
 
 /* Extra small devices (phones, less than 768px) */
