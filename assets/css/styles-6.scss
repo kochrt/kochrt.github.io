@@ -11,7 +11,7 @@
 /* styles-6.css */
 /* ======= Base ======= */
 
-body {
+.has-background {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
   background: #f5f5f5;
@@ -342,6 +342,9 @@ p {
 }
 
 .post-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
   background: #fff;
   padding: 60px 150px 15px 150px;
   // padding-left: 150px;
