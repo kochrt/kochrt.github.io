@@ -28,3 +28,10 @@ linkedin: kochrt
 github: kochrt
 pdf: resume.pdf
 #Update all the sections by editing the files inside _includes folder.
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
