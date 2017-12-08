@@ -1,9 +1,8 @@
 ---
 layout: post
+title: XCode Console Progress Bar
 ---
-
-## XCode Console Progress Bar
-I wanted to monitor the performance of a background process in an XCode app, so I wrote this little progress bar. It displays successive bars in the XCode console, which doesn't allow moving the cursor like a tradtional terminal, so output can't be overwritten.
+I wanted to monitor the performance of a background process in an iOS app, so I wrote this little progress bar. It displays successive bars in the XCode console, which doesn't allow moving the cursor like a tradtional terminal, so output can't be overwritten.
 
 ```swift
 class ProgressBar {
@@ -28,8 +27,8 @@ class ProgressBar {
     }
 }
 ```
-
-The following code produces the output below it:
+<br><br>
+The following code produces the output below it:  
 ```swift
 let total = 1000
 let p = ProgressBar()
@@ -62,7 +61,7 @@ let p = ProgressBar()
 |+++++++++++++++++++-|
 |++++++++++++++++++++|
 ```
-
+<br><br>
 You can also output an arbitrarily complete progress bar:
 ```swift
 p.progressLine(0.68)  // |++++++++++++++------|

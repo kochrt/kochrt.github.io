@@ -9,10 +9,15 @@ layout: compress
 <body>
     <div class="wrapper">
         <div class="post-wrapper">
-           
+            <center><h1> {{ page.title }}</h1></center>
+            <center><i>{{ page.date | date: "%b %-d, %Y" }}</i></center>
+            <br>
            {{ content }}
             
         </div>
     </div>
+    
+    {% include postfooter.html %}
+
 </body>
 </html> 
