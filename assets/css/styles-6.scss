@@ -357,6 +357,17 @@ p {
   }
 }
 
+.post-header {
+  max-width: 800px;
+  height: 60px;
+  background: #3C5560;
+  
+  h {
+    color: white;
+  }
+
+}
+
 .skillset {
   .item {
     margin-bottom: 15px;

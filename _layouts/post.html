@@ -7,16 +7,13 @@ layout: compress
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 {% include head.html %}
 <body>
-    <!-- <div class="wrapper"> -->
-        <div class="post-wrapper">
-            <center><h1> {{ page.title }}</h1></center>
-            <center><i>{{ page.date | date: "%b %-d, %Y" }}</i></center>
-            <br>
-           {{ content }}
-            
-        </div>
-        {% include postfooter.html %}
-    <!-- </div> -->
-
+    {% include postheader.html %}
+    <div class="post-wrapper">
+        <center><h1> {{ page.title }}</h1></center>
+        <center><i>{{ page.date | date: "%b %-d, %Y" }}</i></center>
+        <br>
+        {{ content }}
+    </div>
+    {% include postfooter.html %}
 </body>
 </html> 
