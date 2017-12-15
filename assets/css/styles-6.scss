@@ -346,9 +346,7 @@ p {
   margin: 0 auto;
   position: relative;
   background: #fff;
-  padding: 60px 150px 15px 150px;
-  // padding-left: 150px;
-  // padding-right: 150px;
+  padding: 20px 150px 15px 150px;
 
   font-size: 1.3em;
   
@@ -359,13 +357,9 @@ p {
 
 .post-header {
   max-width: 800px;
-  height: 60px;
-  background: #3C5560;
-  
-  h {
-    color: white;
-  }
-
+  background: #f9f9f9;
+  margin: 0 auto;
+  border-radius: 0px;
 }
 
 .skillset {
