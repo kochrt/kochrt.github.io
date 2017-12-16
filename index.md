@@ -3,7 +3,7 @@ layout: default
 
 # About me
 about: [
-    "Software engineer and general tinkerer - I like to code and play with new technology. Currently doing iOS and web development; otherwise was most recently in Cardinal Health's cloud, where I had the opportunity to work with AWS and do a lot of python scripting. I can be bribed with good Chinese food."
+    "Software engineer and problem solver - I like to code and play with new technology. Currently doing iOS development at Cladwell; otherwise was most recently in Cardinal Health's cloud, where I was working with AWS and doing a lot of python scripting. I can be bribed with good Chinese food.<br><br>Also, it's pronounced \"cook.\""
 ]
 
 # Projects
@@ -146,13 +146,13 @@ experiences: [
 
 # Skills
 skills: [
-    ["Swift, XCode, iOS", 98%],
-    [Java, 98%],
-    ["Angular2, Typescript", 92%],
-    ["HTML, CSS, Javascript", 92%],
-    [Python, 92%],
-    ["Android, Android Studio", 88%],
-    ["AWS", 88%]
+    # ["Swift, XCode, iOS", 98%],
+    # [Java, 98%],
+    # ["Angular2, Typescript", 92%],
+    # ["HTML, CSS, Javascript", 92%],
+    # [Python, 92%],
+    # ["Android, Android Studio", 88%],
+    # ["AWS", 88%]
 ]
 ---
 
@@ -169,6 +169,8 @@ skills: [
 {% if site.light %}
 
 {% else %}
-{% include skills.html %}
-{% endif %}            
+    {% if site.skills.size > 0 %}
+        {% include skills.html %}
+    {% endif %}
+{% endif %}
 
