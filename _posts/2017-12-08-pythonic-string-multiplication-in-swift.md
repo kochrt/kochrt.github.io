@@ -55,8 +55,17 @@ func *>(_ str: String, _ count: Int) -> String {
     }
     return str + (str *> (count - 1))
 }
+```
+
+By recognizing that `"-" * 4` is the same as `"--" * 2`, we can essentially cut the problem in half when we can, giving us an `O(nlog(n))` implementation.
+  
+We've made good progress! As it turns out, though, this is really just an exercise in dynamic programming, because Swift includes a String initializer than takes in a String to be repeated `count` number of times! And it is much faster to boot. Here is our final version:
+```swift
+infix operator *>: MultiplicationPrecedence
+
+func *>(_ str: String, _ count: Int) -> String {
+    return String(repeating: str, count: count)
+}
 
 let str = "7" *> 3 + "3" *> 7  // "7773333333"
 ```
-
-By recognizing that `"-" * 4` is the same `"--" * 2`, we can essentially cut the problem in half when we can, giving us an `O(nlog(n))` implementation.
