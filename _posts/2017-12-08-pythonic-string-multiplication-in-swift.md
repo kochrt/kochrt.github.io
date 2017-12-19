@@ -57,7 +57,7 @@ func *>(_ str: String, _ count: Int) -> String {
 }
 ```
 
-By recognizing that `"-" * 4` is the same as `"--" * 2`, we can essentially cut the problem in half when we can, giving us an `O(nlog(n))` implementation.
+By recognizing that `"-" * 4` is the same as `"--" * 2`, we can essentially cut the problem in half when we can, giving us an `O(log(n))` implementation.
   
 We've made good progress! As it turns out, though, this is really just an exercise in dynamic programming, because Swift includes a String initializer than takes in a String to be repeated `count` number of times! And it is much faster to boot. Here is our final version:
 ```swift
