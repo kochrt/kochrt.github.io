@@ -342,12 +342,13 @@ p {
 }
 
 .title-year {
-  margin-top: 50px;
+  margin: 50px 0px 0px 10px;
   font-weight: 400;
   color: #515862;
 }
 
 .post-row {
+  margin: 0px 10px 0px 10px;
   display: flex;
   align-items: center;
 
@@ -369,13 +370,26 @@ p {
 .post-wrapper {
   max-width: 960px;
   width: 80%;
-  margin: 0 auto;
+  margin: 50px auto 0px auto;
 
   background: #fff;
   font-size: 1.3em;
 
   .highlight code {
     font-size: 1.2em;
+  }
+
+  .date {
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    font-weight: 500;
+  }
+  
+  h4 {
+    font-weight: 500;
   }
 }
 
@@ -389,6 +403,7 @@ p {
 .main-container {
   max-width: 800px;
   margin: 0 auto;
+  font-family: 'Roboto';
 }
 
 .blog-header {
