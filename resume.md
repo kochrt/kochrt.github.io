@@ -1,11 +1,6 @@
 ---
 layout: resume
 
-# About me
-about: [
-    "Software engineer and problem solver - I like to code and play with new technology. Currently doing iOS development at Cladwell; otherwise was most recently in Cardinal Health's cloud, where I was working with AWS and doing a lot of python scripting. I can be bribed with good Chinese food.<br><br>Also, it's pronounced \"cook.\""
-]
-
 # Projects
 projects: [
     {
@@ -155,13 +150,6 @@ skills: [
     # ["AWS", 88%]
 ]
 ---
-
-{% if site.light %}
-
-{% else %}
-{% include career-profile.html %}
-{% endif %}  
-            
 {% include projects.html %}
 
 {% include experience.html %}
