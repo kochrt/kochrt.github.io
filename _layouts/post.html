@@ -1,23 +1,13 @@
 ---
 layout: compress
+layout: headerfooter
 ---
-<!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
-{% include head.html %}
-<body>
-    {% include blogheader.html %}
-    <div class="post-wrapper">
-        <div style="text-align: right;">
-            <small>{{ page.date | date: "%b %-d, %Y" }}</small>
-        </div>
-        <center><h1> {{ page.title }}</h1></center>
-        <br>
-        {{ content }}
-        <br>
-        <hr>
+<div class="post-wrapper">
+    <div style="text-align: right;">
+        <small>{{ page.date | date: "%b %-d, %Y" }}</small>
     </div>
-    {% include blogfooter.html %}
-</body>
-</html> 
+    <center><h1> {{ page.title }}</h1></center>
+    <br>
+    {{ content }}
+    <br>
+</div>
