@@ -1,6 +1,6 @@
 ---
 layout: resume
-
+title: Rob Koch Resume
 # Projects
 projects: [
     {
