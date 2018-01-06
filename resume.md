@@ -74,7 +74,7 @@ experiences: [
         company: "Cladwell",
         url: "https://cladwell.com",
         location: "Cincinnati, OH",
-        time: "Current",
+        time: "2017 - Current",
         details: [
             "All-aspect iOS Development - quickly iterated features in response to market demands in a fast-paced startup environment",
             "Reduced instances of crashing by a factor of 10, while continuously adding new features",
@@ -87,7 +87,7 @@ experiences: [
         company: "Cash Flow Solutions",
         url: "https://followthefrog.com",
         location: "Oxford, OH",
-        time: "2016-2017",
+        time: "2016 - 2017",
         details: [ 
             "Created an embeddable javascript plugin (for use by clients to accept payments) as a one-line alternative to interacting directly with our API",
             "Migrated company website from Wordpress to independent HTML/CSS/JS"
@@ -152,10 +152,8 @@ skills: [
     # ["AWS", 88%]
 ]
 ---
-{% include projects.html %}
-
 {% include experience.html %}
-
+{% include projects.html %}
 {% if site.light %}
 
 {% else %}
