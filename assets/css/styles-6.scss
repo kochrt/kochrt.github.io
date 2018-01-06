@@ -367,6 +367,64 @@ p {
   }
 }
 
+.index-container {
+  .about {
+    position: relative;
+    background: rgb(75, 106, 120);
+
+    display: flex;
+    flex-direction: column;
+
+    .top {
+      height: 10px;
+      background: #f5f5f5;
+    }
+
+    .bottom {
+      height: 110px;
+      text-align: center;
+
+      p {
+        position: absolute;
+        top: 40px;
+        left: 20%;
+        right: 20%;
+      }
+    }
+    .info {
+      height: 160px;
+      width: 80%;
+      position: absolute;
+
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      top: -40px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: #f5f5f5;
+
+      font-size: 1.7rem;
+      font-weight: 300;
+
+      .profile-img {
+        margin-bottom: 5px;
+        max-width: 100px;
+      }
+
+      .about-text {
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
+
 .post-wrapper {
   max-width: 960px;
   width: 80%;
@@ -386,10 +444,12 @@ p {
 
   h1 {
     font-weight: 500;
+    color: #515862
   }
   
   h4 {
     font-weight: 500;
+    color: #515862
   }
 }
 
@@ -411,6 +471,7 @@ p {
   border-radius: 0px;
   font-family: 'Roboto', 'sans-serif';
   font-weight: 600;
+  margin-bottom: 0;
 }
 
 .skillset {

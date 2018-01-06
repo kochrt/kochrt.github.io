@@ -76,7 +76,9 @@ experiences: [
         location: "Cincinnati, OH",
         time: "Current",
         details: [
-            "All-aspect iOS Development - quickly iterated features in response to market demands in a fast-paced startup environment"
+            "All-aspect iOS Development - quickly iterated features in response to market demands in a fast-paced startup environment",
+            "Reduced instances of crashing by a factor of 10, while continuously adding new features",
+            "Instrumental in raising app rating from 3.x to 4.4+"
         ]
     },
     {

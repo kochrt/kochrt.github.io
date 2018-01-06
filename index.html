@@ -1,13 +1,20 @@
 ---
 layout: headerfooter
-title: Ok
+title: Rob Koch
 
-about: I like to build things and play with technology. I can be bribed with good Chinese food.
+about: I identify and implement solutions to problems via technology.
 
 ---
 <div class="index-container">
     <div class="about">
-        <p>{{ page.about }}</p>
+        <div class="top"></div>
+        <div class="info">
+            <img class="profile-img" src="{{site.baseurl}}/assets/images/{% if site.pic %}{{ site.pic }}{% else %}profile.png{% endif %}" alt="profile picture" title>
+            <div class="about-text">
+                <span>{{ page.about }}</span>
+            </div>
+        </div>
+        <div class="bottom"></div>
     </div>
     <div class="posts">
         {% for post in site.posts %}
