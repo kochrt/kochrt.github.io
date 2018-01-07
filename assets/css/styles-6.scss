@@ -433,6 +433,16 @@ p {
   background: #fff;
   font-size: 1.3em;
 
+  img {
+    max-width: 100%;
+    padding: 5%;
+  }
+
+  a {
+    color: #4B6A78;
+    text-decoration: underline;
+  }
+
   .highlight code {
     font-size: 1.2em;
   }
