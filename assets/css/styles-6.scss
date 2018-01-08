@@ -368,6 +368,11 @@ p {
 }
 
 .index-container {
+  .posts {
+    a {
+      text-decoration: underline;
+    }
+  }
   .about {
     position: relative;
     background: rgb(75, 106, 120);
