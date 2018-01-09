@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pythonic String Multiplication in Swift
+excerpt: Sometimes you just want to say <code class="highlighter-rouge">"-" * 100</code>, which is not allowed in Swift.
 ---
 
 Unfortunately the following code does not compile in Swift:

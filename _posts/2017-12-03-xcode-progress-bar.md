@@ -1,6 +1,7 @@
 ---
 layout: post
 title: XCode Console Progress Bar
+excerpt: I wanted to monitor the performance of a background process in an iOS app, so I wrote this little progress bar.
 ---
 I wanted to monitor the performance of a background process in an iOS app, so I wrote this little progress bar. It displays successive bars in the XCode console, which doesn't allow moving the cursor like a tradtional terminal, so output can't be overwritten.
 

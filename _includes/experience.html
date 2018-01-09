@@ -32,6 +32,11 @@
         <div class="details">
             {% for sub in experience.details %}
                 <p>{{ sub }}</p>
+                {% if experience.images %}
+                    {% if experience.images[forloop.index] %}
+                        <img src="/assets/images/{{ experience.images[forloop.index] }}">
+                    {% endif %}
+                {% endif %}
             {% endfor %}
         </div><!--//details-->
 

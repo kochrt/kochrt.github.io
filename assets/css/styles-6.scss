@@ -211,6 +211,12 @@ p {
         }
       }
     }
+    .details {
+      img {
+        max-width: 100%;
+        padding: 0px 20px 20px 20px;
+      }
+    }
   }
   .upper-row {
     position: relative;
@@ -373,7 +379,12 @@ p {
       color: #4B6A78;
       text-decoration: underline;
     }
+    .excerpt {
+      font-size: larger;
+      margin: 0px 14px 0px 14px;
+    }
   }
+
   .about {
     position: relative;
     background: rgb(75, 106, 120);

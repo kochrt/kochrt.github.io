@@ -77,8 +77,11 @@ experiences: [
         time: "2017 - Current",
         details: [
             "All-aspect iOS Development - quickly iterated features in response to market demands in a fast-paced startup environment",
-            "Reduced instances of crashing by a factor of 10, while continuously adding new features",
-            "Instrumental in raising app rating from 3.x to 4.4+"
+            "Instrumental in raising app rating from 3.x to 4.4+",
+            "Reduced instances of crashing by a factor of 10, while continuously adding new features"
+        ],
+        images: [
+            null, null, null, "graph.png"
         ]
     },
     {
@@ -101,7 +104,7 @@ experiences: [
         location: "Columbus, OH",
         time: "2016",
         details: [
-            "Redesigned and managed the internal engagement process for requesting Amazon Web Services (AWS) resources, streamlining the resource provisioning process",
+            "Managed, redesigned, and partially automated the internal requisition process for Amazon Web Services (AWS) resources",
             "Automated solutions for logging into VDI, sending customer emails based on data from an Excel spreadsheet, and entering queries into Neo4j graph database all using Python"
         ]
     },
@@ -113,20 +116,20 @@ experiences: [
         location: "Oxford, OH",
         time: "2015, 2017",
         details: [
-            "Proctored a computer lab for object-oriented programming course, focusing on good coding practices, readability, and object-oriented design"
+            "Led 2 labs for object-oriented programming course with 20+ students in each lab, focusing on object-oriented principles and design, good coding practices, and readability"
         ]
     },
-    {
-        title: "English Instructor",
-        img: "shaoxing.png",
-        company: "Shaoxing University",
-        url: "https://en.wikipedia.org/wiki/Shaoxing_University",
-        location: "Shaoxing, China",
-        time: "2013 - 2015",
-        details: [
-            "Taught comprehensive college-level English course to students while learning Chinese"
-        ]
-    },
+    # {
+    #     title: "English Instructor",
+    #     img: "shaoxing.png",
+    #     company: "Shaoxing University",
+    #     url: "https://en.wikipedia.org/wiki/Shaoxing_University",
+    #     location: "Shaoxing, China",
+    #     time: "2013 - 2015",
+    #     details: [
+    #         "Taught comprehensive college-level English course to students while learning Chinese"
+    #     ]
+    # },
     {
         title: "Research Fellow",
         img: "proctergamble.png",
@@ -135,7 +138,7 @@ experiences: [
         location: "Cincinnati, OH",
         time: "2012",
         details: [
-            "As part of the biometrics group, conducted product research and consumer testing using various biometric tools and human factors, including facial expression coding, eye tracking using Tobii, implicit cognition studies, and Facial Action Coding System (FACS)",
+            "Designed and conducted product research and consumer testing using biometric tools and human factors, including facial expression coding, eye tracking using Tobii, implicit cognition studies, and Facial Action Coding System (FACS)",
             "Led work on developing new technical methods for evaluating product performance based on sensory feedback from consumers (Pantene)"
         ]
     }

@@ -29,14 +29,13 @@ about: Identifying and implementing solutions to problems via technology.
                     <p>
                         <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
                         <br>
-                        <small class="subtitle">{{post.description}}</small>
                     </p>
                 </div>
                 <div class="date">
                     <p>{{ post.date | date: "%b %-d, %Y" }}</p>
                 </div>
             </div>
-        
+            <p class="excerpt">{{ post.excerpt }}</p>
             {% if this_year != next_year %}
     
             <h2 class="title-year" id="{{ next_year }}-ref">{{next_year}}</h2>
