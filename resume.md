@@ -119,17 +119,17 @@ experiences: [
             "Led 2 labs for object-oriented programming course with 20+ students in each lab, focusing on object-oriented principles and design, good coding practices, and readability"
         ]
     },
-    {
-        title: "English Instructor",
-        img: "shaoxing.png",
-        company: "Shaoxing University",
-        url: "https://en.wikipedia.org/wiki/Shaoxing_University",
-        location: "Shaoxing, China",
-        time: "2013 - 2015",
-        details: [
-            "Taught comprehensive college-level English course to students while learning Chinese"
-        ]
-    },
+    # {
+    #     title: "English Instructor",
+    #     img: "shaoxing.png",
+    #     company: "Shaoxing University",
+    #     url: "https://en.wikipedia.org/wiki/Shaoxing_University",
+    #     location: "Shaoxing, China",
+    #     time: "2013 - 2015",
+    #     details: [
+    #         "Taught comprehensive college-level English course to students while learning Chinese"
+    #     ]
+    # },
     {
         title: "Research Fellow",
         img: "proctergamble.png",
