@@ -4,11 +4,12 @@
 
         {% for skill in page.skills %}
         <div class="item">
-            <h3 class="level-title">{{ skill[0] }}</h3>
-            <div class="level-bar">
+            {{skill}}
+            <h3 class="level-title">{{ skill }}</h3>
+            <!-- <div class="level-bar">
                 <div class="level-bar-inner" data-level="{{ skill[1] }}">
                 </div>                                      
-            </div><!--//level-bar-->                                 
+            </div>//level-bar-->
         </div><!--//item-->
         {% endfor %} 
 

@@ -119,17 +119,17 @@ experiences: [
             "Led 2 labs for object-oriented programming course with 20+ students in each lab, focusing on object-oriented principles and design, good coding practices, and readability"
         ]
     },
-    # {
-    #     title: "English Instructor",
-    #     img: "shaoxing.png",
-    #     company: "Shaoxing University",
-    #     url: "https://en.wikipedia.org/wiki/Shaoxing_University",
-    #     location: "Shaoxing, China",
-    #     time: "2013 - 2015",
-    #     details: [
-    #         "Taught comprehensive college-level English course to students while learning Chinese"
-    #     ]
-    # },
+    {
+        title: "English Instructor",
+        img: "shaoxing.png",
+        company: "Shaoxing University",
+        url: "https://en.wikipedia.org/wiki/Shaoxing_University",
+        location: "Shaoxing, China",
+        time: "2013 - 2015",
+        details: [
+            "Taught comprehensive college-level English course to students while learning Chinese"
+        ]
+    },
     {
         title: "Research Fellow",
         img: "proctergamble.png",
@@ -146,13 +146,14 @@ experiences: [
 
 # Skills
 skills: [
-    # ["Swift, XCode, iOS", 98%],
-    # [Java, 98%],
-    # ["Angular2, Typescript", 92%],
-    # ["HTML, CSS, Javascript", 92%],
-    # [Python, 92%],
-    # ["Android, Android Studio", 88%],
-    # ["AWS", 88%]
+    "Swift, XCode, iOS",
+    "Java",
+    "Angular2, Typescript",
+    "HTML, CSS, Javascript",
+    "Python, Jupyter Notebooks",
+    "Android, Android Studio",
+    "AWS",
+    "Whatever gets the job done",
 ]
 ---
 {% include experience.html %}
