@@ -76,12 +76,13 @@ experiences: [
         location: "Cincinnati, OH",
         time: "2017 - Current",
         details: [
-            "All-aspect iOS Development - quickly iterated features in response to market demands in a fast-paced startup environment",
+            "All-aspect app development - quickly iterated features in response to market demands in a fast-paced startup environment",
             "Instrumental in raising app rating from 3.x to 4.4+",
+            "Converted app from a thick to a thin client in conjuction with API rollout",
             "Reduced instances of crashing by a factor of 10, while continuously adding new features"
         ],
         images: [
-            null, null, null, "graph.png"
+            null, null, null, null, "graph.png"
         ]
     },
     {
@@ -92,8 +93,8 @@ experiences: [
         location: "Oxford, OH",
         time: "2016 - 2017",
         details: [ 
-            "Created an embeddable javascript plugin (for use by clients to accept payments) as a one-line alternative to interacting directly with our API",
-            "Migrated company website from Wordpress to independent HTML/CSS/JS"
+            "Created a one-line embeddable javascript plugin (for use by clients to accept payments) as an alternative to interacting directly with our API",
+            "Migrated company website out of Wordpress to independent HTML/CSS/JS"
         ]
     },
     {
@@ -105,7 +106,7 @@ experiences: [
         time: "2016",
         details: [
             "Managed, redesigned, and partially automated the internal requisition process for Amazon Web Services (AWS) resources",
-            "Automated solutions for logging into VDI, sending customer emails based on data from an Excel spreadsheet, and entering queries into Neo4j graph database all using Python"
+            "Automated solutions for logging into VDI, sending customer emails based on data from an Excel spreadsheet, and entering queries into Neo4j graph database using Python"
         ]
     },
     {
