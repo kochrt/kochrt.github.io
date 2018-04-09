@@ -4,17 +4,11 @@
     {% for experience in page.experiences %}
     <div class="item">
         <div class="meta">
-            
-            {% if site.light %}
-
-            {% else %}
-                {% if experience.img %}
-                    <div class="img-wrapper">
-                        <img src="/assets/images/{{ experience.img }}">
-                    </div>
-                {% endif %}
+            {% if experience.img %}
+                <div class="img-wrapper">
+                    <img src="/assets/images/{{ experience.img }}">
+                </div>
             {% endif %}
-
             <div class="row-wrapper">
                 <div class="upper-row">
                     <h3 class="job-title">{{ experience.title }}</h3>

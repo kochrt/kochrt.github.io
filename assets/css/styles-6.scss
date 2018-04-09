@@ -74,7 +74,11 @@ p {
     color: #fff;
   }
   .profile-container {
+    {% if site.light %}
+    padding: 60px 30px 30px 30px;
+    {% else %}
     padding: 30px;
+    {% endif %}
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;

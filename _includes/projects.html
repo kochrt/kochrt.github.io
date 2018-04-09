@@ -4,20 +4,15 @@
     {% for proj in page.projects %}
         
         <div class="itemrow">
-            {% if site.light %}
-
-            {% else %}
-                {% if proj.img %}
-                    {% if proj.url %}
-                        <a href="{{ proj.url }}" target="_blank">
-                            <img src="/assets/images/{{ proj.img }}.png">
-                        </a>
-                    {% else %}
+            {% if proj.img %}
+                {% if proj.url %}
+                    <a href="{{ proj.url }}" target="_blank">
                         <img src="/assets/images/{{ proj.img }}.png">
-                    {% endif %}
+                    </a>
+                {% else %}
+                    <img src="/assets/images/{{ proj.img }}.png">
                 {% endif %}
-            {% endif %}
-            
+            {% endif %}            
             <div class="item">
                 <span class="project-title">
                     {% if proj.url %}

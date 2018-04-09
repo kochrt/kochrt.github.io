@@ -69,20 +69,28 @@ projects: [
 # Work experience
 experiences: [
     {
+        title: "Growth Team Dev Lead",
+        img: "cladwell.png",
+        company: "Cladwell",
+        url: "https://cladwell.com",
+        location: "Cincinnati, OH",
+        time: "Mar 2018 - Current",
+        details: [
+            "Leading Growth Team development efforts to exponentially increase customer base"
+        ]
+    },
+    {
         title: "Software Engineer",
         img: "cladwell.png",
         company: "Cladwell",
         url: "https://cladwell.com",
         location: "Cincinnati, OH",
-        time: "2017 - Current",
+        time: "May 2017 - Mar 2018",
         details: [
             "All-aspect app development - quickly iterated features in response to market demands in a fast-paced startup environment",
-            "Instrumental in raising app rating from 3.x to 4.4+",
+            "Reduced instances of crashing by a factor of 10, while continuously adding new features",
             "Converted app from a thick to a thin client in conjuction with API rollout",
-            "Reduced instances of crashing by a factor of 10, while continuously adding new features"
-        ],
-        images: [
-            null, null, null, null, "graph.png"
+            "Raised app rating from 3.x to 4.4+"
         ]
     },
     {
@@ -98,7 +106,7 @@ experiences: [
         ]
     },
     {
-        title: "Cloud Engineering Intern",
+        title: "Cloud Engineer",
         img: "cardinal.png",
         company: "Cardinal Health",
         url: "https://cardinalhealth.com",
@@ -106,7 +114,7 @@ experiences: [
         time: "2016",
         details: [
             "Managed, redesigned, and partially automated the internal requisition process for Amazon Web Services (AWS) resources",
-            "Automated solutions for logging into VDI, sending customer emails based on data from an Excel spreadsheet, and entering queries into Neo4j graph database using Python"
+            "Automated solutions for logging into VDI, sending customer emails, and Neo4j graph database queries using Python"
         ]
     },
     {
