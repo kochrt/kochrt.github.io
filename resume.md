@@ -69,14 +69,14 @@ projects: [
 # Work experience
 experiences: [
     {
-        title: "Growth Team Dev Lead",
+        title: "Dev Lead - Growth",
         img: "cladwell.png",
         company: "Cladwell",
         url: "https://cladwell.com",
         location: "Cincinnati, OH",
         time: "Mar 2018 - Current",
         details: [
-            "Leading Growth Team development efforts to exponentially increase customer base"
+            "Currently leading Growth Team development efforts to exponentially increase customer base"
         ]
     },
     {
@@ -87,8 +87,8 @@ experiences: [
         location: "Cincinnati, OH",
         time: "May 2017 - Mar 2018",
         details: [
-            "All-aspect app development - quickly iterated features in response to market demands in a fast-paced startup environment",
-            "Reduced instances of crashing by a factor of 10, while continuously adding new features",
+            "All-aspect iOS app development - quickly iterated features in response to market demands in a fast-paced startup environment",
+            "Reduced instances of crashing by a factor of 10, while simultaneously adding new features",
             "Converted app from a thick to a thin client in conjuction with API rollout",
             "Raised app rating from 3.x to 4.4+"
         ]
@@ -101,7 +101,7 @@ experiences: [
         location: "Oxford, OH",
         time: "2016 - 2017",
         details: [ 
-            "Created a one-line embeddable javascript plugin (for use by clients to accept payments) as an alternative to interacting directly with our API",
+            "Created a javascript payment processing plugin for clients as a one-line alternative to interacting directly with our API",
             "Migrated company website out of Wordpress to independent HTML/CSS/JS"
         ]
     },
