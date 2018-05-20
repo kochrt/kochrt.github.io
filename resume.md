@@ -76,7 +76,8 @@ experiences: [
         location: "Cincinnati, OH",
         time: "Mar 2018 - Current",
         details: [
-            "Currently leading Growth Team development efforts to exponentially increase customer base"
+            "Currently leading Growth Team development efforts to exponentially increase customer base",
+            "Implemented a fully redesigned in-app onboarding process to increase retention at the top-most level of our user acquisition funnel"
         ]
     },
     {
