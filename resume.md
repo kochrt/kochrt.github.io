@@ -74,9 +74,9 @@ experiences: [
         company: "Cladwell",
         url: "https://cladwell.com",
         location: "Cincinnati, OH",
-        time: "Mar 2018 - Current",
+        time: "Mar 2018 - May 2018",
         details: [
-            "Currently leading Growth Team development efforts to exponentially increase customer base",
+            "Led Growth Team engineering efforts to exponentially increase customer base",
             "Implemented a fully redesigned in-app onboarding process to increase retention at the top-most level of our user acquisition funnel"
         ]
     },
