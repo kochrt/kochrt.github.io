@@ -69,15 +69,13 @@ projects: [
 # Work experience
 experiences: [
     {
-        title: "Dev Lead - Growth",
-        img: "cladwell.png",
-        company: "Cladwell",
-        url: "https://cladwell.com",
-        location: "Cincinnati, OH",
-        time: "Mar 2018 - May 2018",
+        title: "Software Engineer",
+        img: "google.png",
+        company: "Google",
+        url: "https://www.google.com",
+        location: "Seattle, WA",
+        time: "Oct 2018 - Current",
         details: [
-            "Led Growth Team engineering efforts to exponentially increase customer base",
-            "Implemented a fully redesigned in-app onboarding process to increase retention at the top-most level of our user acquisition funnel"
         ]
     },
     {
@@ -86,12 +84,13 @@ experiences: [
         company: "Cladwell",
         url: "https://cladwell.com",
         location: "Cincinnati, OH",
-        time: "May 2017 - Mar 2018",
+        time: "May 2017 - May 2018",
         details: [
-            "All-aspect iOS app development - quickly iterated features in response to market demands in a fast-paced startup environment",
+            "Converted iOS app from a thick to a thin client in conjuction with API rollout",
             "Reduced instances of crashing by a factor of 10, while simultaneously adding new features",
-            "Converted app from a thick to a thin client in conjuction with API rollout",
-            "Raised app rating from 3.x to 4.4+"
+            "Raised app rating from 3.x to 4.4+",
+            "Led Growth Team engineering efforts to exponentially increase customer base",
+            "Implemented a fully redesigned in-app onboarding process to increase retention at the top-most level of our user acquisition funnel",
         ]
     },
     {
