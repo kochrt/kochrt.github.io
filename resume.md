@@ -76,6 +76,7 @@ experiences: [
         location: "Seattle, WA",
         time: "Oct 2018 - Current",
         details: [
+            Helping users focus on what is important and urgent in Android Messages
         ]
     },
     {
