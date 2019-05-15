@@ -76,7 +76,10 @@ experiences: [
         location: "Seattle, WA",
         time: "Oct 2018 - Current",
         details: [
-            Helping users focus on what is important and urgent in Android Messages
+            "Helping users focus on what is important and urgent in Android Messages",
+            "Designed and implemented experiments for increasing the CTR of RCS promotions, leading to a 22% increase in user sign-ups",
+            "Designed and implemented heuristically identifying, and automatically replying to, carrier requests to users for spam phone numbers, which is used 10k times/day across all users",
+            "Designed and implemented the ability for users to select multiple messages"     
         ]
     },
     {
