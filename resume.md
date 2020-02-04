@@ -28,7 +28,7 @@ projects: [
         label: "Patterson Bridge", 
         img: "pb",
         url: "https://www.pattersonbridge.com", 
-        details: "Site to help students find other students to work on projects together. Why wait for a startup weekend to find talent and start your business? Written in Angular2 with Google's Firebase as a backend.",
+        details: "Site to help students find other students to work on projects together. Written in Angular2 with Google's Firebase as a backend.",
         stack: [
             ["Angular2.png", "Angular2"], 
             ["Firebase.jpeg", "Firebase"]
@@ -43,15 +43,6 @@ projects: [
             ["iOS.png", "iOS"], 
             ["Swift.jpeg", "Swift"], 
             ["Firebase.jpeg", "Firebase"]
-        ]
-    },
-    {
-        label: "GaggleInc", 
-        img: "gaggle",
-        details: "Hybrid mobile app using the Ionic framework and Angular2 in a three-person Agile development environment",
-        stack: [
-            ["Angular2.png", "Angular2"],
-            ["Ionic.png", "Ionic"]
         ]
     },
     {
@@ -76,10 +67,10 @@ experiences: [
         location: "Seattle, WA",
         time: "Oct 2018 - Current",
         details: [
-            "Helping users focus on what is important and urgent in Android Messages",
+            "Helping users focus on what is important and urgent in Android Messages.",
             "Designed and implemented experiments for increasing the CTR of RCS promotions, leading to a 22% increase in user sign-ups",
             "Designed and implemented heuristically identifying, and automatically replying to, carrier requests to users for spam phone numbers, which is used 10k times/day across all users",
-            "Designed and implemented the ability for users to select multiple messages"     
+            "Designed and implemented the ability for users to select multiple messages, which is used over 2M times/day"  
         ]
     },
     {
