@@ -443,12 +443,24 @@ p {
 }
 
 .post-wrapper {
-  max-width: 960px;
-  width: 80%;
-  margin: 50px auto 0px auto;
-
   background: #fff;
-  font-size: 1.3em;
+
+  .title-wrapper {
+    display: flex;
+    justify-content: center;
+    .title {
+      font-weight: 300;
+    }
+  }
+
+  .date-wrapper {
+    display: flex;
+    justify-content: center;
+
+    .date {
+      font-weight: 300;
+    }
+  }
 
   img {
     max-width: 100% !important;
@@ -462,21 +474,6 @@ p {
 
   .highlight code {
     font-size: 1.2em;
-  }
-
-  .date {
-    display: flex;
-    justify-content: center;
-  }
-
-  h1 {
-    font-weight: 500;
-    color: #515862
-  }
-  
-  h4 {
-    font-weight: 500;
-    color: #515862
   }
 
   pre {
