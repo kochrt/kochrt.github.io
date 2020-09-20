@@ -478,36 +478,42 @@ p {
     font-weight: 500;
     color: #515862
   }
-}
 
-.post-list {
-  max-width: 960px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 0px 150px 0px 150px;
+  pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
 }
 
 .tag-list {
   display: flex;
   flex-direction: row;
-
-  .tag-list-item {
-
-  }
 }
 
 .main-container {
   max-width: 800px;
   margin: 0 auto;
-  font-family: 'Roboto';
 }
 
 .blog-header {
-  background: #f5f5f5;
+  background: #f8f8f8;
   border-radius: 0px;
   font-family: 'Roboto', 'sans-serif';
   font-weight: 600;
   margin-bottom: 0;
+
+  .header-content {
+    max-width: 800px;
+  }
 }
 
 .skillset {
@@ -527,6 +533,38 @@ p {
   .level-bar-inner {
     height: 12px;
     background: #6c92a3;
+  }
+}
+
+.tagChip.Tech {
+  background-color: #dbdafc;
+
+  &:hover {
+    background-color: #cbcafc;
+  }
+}
+
+.tagChip.Musings {
+  background-color: #ffe8de;
+
+  &:hover {
+    background-color: #ffe0d3;
+  }
+}
+
+.tagChip.Programming {
+  background-color: #cdcce4;
+
+  &:hover {
+    background-color: #c0bede;
+  }
+}
+
+.tagChip.Travel {
+  background-color: #ffe8de;
+
+  &:hover {
+    background-color: #ffe0d3;
   }
 }
 

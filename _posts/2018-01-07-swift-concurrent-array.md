@@ -3,6 +3,8 @@ layout: post
 title: Swift Concurrent Array Performance
 subtitle: Concurrently performing operations over an array in Swift doesn't seem to make things faster.
 excerpt: In an attempt to make some speed improvements for a longer-running iOS process, I had the thought of parallelizing some work that was being done over an array.
+tags:
+  - Programming
 ---
 In an attempt to make some speed improvements for a longer-running iOS process, I had the thought of parallelizing some work that was being done over an array. I was hoping to implement something similar to OpenMP's `#pragma omp parallel` or `#pragma omp for` for C++:
 ```c++

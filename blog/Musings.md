@@ -1,5 +1,5 @@
 ---
 layout: headerfooter
-tagName: Tech
+tagName: Musings
 ---
 {% include tagged_post_list.html %}
