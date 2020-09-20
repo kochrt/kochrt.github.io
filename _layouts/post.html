@@ -3,15 +3,17 @@ layout: compress
 layout: headerfooter
 ---
 <div class="post-wrapper">
-    <center><h1 class="title"> {{ page.title }}</h1></center>
-    
-    <div class="date">
-        <h4>{{ page.date | date: "%b %-d, %Y" }}</h4>
-    </div>
-    {% if page.subtitle %}
-    <!-- <center><h4 class="subtitle"><i>{{ page.subtitle }}</i></h4></center> -->
-    {% endif %}
-    <br>
-    {{ content }}
-    <br>
+  <center>
+    <h1 class="title"> {{ page.title }}</h1>
+  </center>
+
+  <div class="date">
+    <h4>{{ page.date | date: "%b %-d, %Y" }}</h4>
+  </div>
+  {% if page.subtitle %}
+  <!-- <center><h4 class="subtitle"><i>{{ page.subtitle }}</i></h4></center> -->
+  {% endif %}
+  <br>
+  {{ content }}
+  <br>
 </div>

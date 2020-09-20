@@ -1,0 +1,30 @@
+<hr>
+<div class="post-row">
+  <div class="post-row-header mx-3">
+    <div class="title-container mt-2">
+      <p class="m-0">
+        <a class="link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+        <br>
+      </p>
+    </div>
+    <div class="date">
+      <p class="m-0">{{ post.date | date: "%b %-d, %Y" }}</p>
+    </div>
+  </div>
+  {% if post.tags %}
+  <div class="tag-list mx-3 mt-1">
+    {% for tag in post.tags %}
+    {% if tag == "Tech" %}
+    <a href="/blog/{{ tag }}" class="tag-list-item btn btn-primary btn-sm px-1 py-0 mr-1">{{ tag }}</a>
+    {% else if tag == "Travel" %}
+    <a href="/blog/{{ tag }}" class="tag-list-item btn btn-success btn-sm px-1 py-0 mr-1">{{ tag }}</a>
+    {% else if tag == "Musings" %}
+    <a href="/blog/{{ tag }}" class="tag-list-item btn btn-info btn-sm px-1 py-0 mr-1">{{ tag }}</a>
+    {% else %}
+    <a href="/blog/{{ tag }}" class="tag-list-item btn btn-warning btn-sm px-1 py-0 mr-1">{{ tag }}</a>
+    {% endif %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  <p class="excerpt mx-3 mt-2">{{ post.excerpt }}</p>
+</div>

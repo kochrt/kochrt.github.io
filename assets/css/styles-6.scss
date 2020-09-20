@@ -361,13 +361,11 @@ p {
 }
 
 .title-year {
-  margin: 50px 0px 0px 10px;
   font-weight: 400;
   color: #515862;
 }
 
-.post-row {
-  margin: 0px 10px 0px 10px;
+.post-row-header {
   display: flex;
   align-items: center;
 
@@ -381,8 +379,7 @@ p {
   }
 
   p {
-    font-size: 1.8rem;
-    margin: 10px 4px 10px 4px;
+    font-size: 1.2rem;
   }
 }
 
@@ -435,13 +432,12 @@ p {
     }
   }
   .posts {
-    a {
+    .link {
       color: #4B6A78;
       text-decoration: underline;
     }
     .excerpt {
       font-size: larger;
-      margin: 0px 14px 0px 14px;
     }
   }
 }
@@ -489,6 +485,15 @@ p {
   margin: 0 auto;
   background: #fff;
   padding: 0px 150px 0px 150px;
+}
+
+.tag-list {
+  display: flex;
+  flex-direction: row;
+
+  .tag-list-item {
+
+  }
 }
 
 .main-container {
