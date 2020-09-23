@@ -1,7 +1,15 @@
 ---
 layout: headerfooter
 ---
-<div class="post-wrapper mt-5">
+<div class="blog-sub-header d-flex p-2 mx-2">
+  <a href="/">&lt; Blog</a>
+  <div class="tag-list ml-auto">
+    {% for tag in page.tags %}
+      <a href="/blog/{{ tag }}" class="tag-list-item btn btn-sm px-1 py-0 mr-1 {{ tag }} tagChip">{{ tag }}</a>
+    {% endfor %}
+  </div>
+</div>
+<div class="post-wrapper mt-3">
   <div class="title-wrapper">
     <h3 class="title"> {{ page.title }}</h3>
   </div>

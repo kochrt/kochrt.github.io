@@ -489,6 +489,18 @@ p {
     border: 1px solid #ccc;
     border-radius: 4px;
   }
+
+  .caption-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: .25em solid #dfe2e5;
 }
 
 .tag-list {
@@ -511,6 +523,10 @@ p {
   .header-content {
     max-width: 800px;
   }
+}
+
+.blog-sub-header {
+  max-width: 800px;
 }
 
 .skillset {
@@ -607,6 +623,7 @@ p {
   }
   .post-wrapper {
     width: 90%;
+    margin: auto;
   }
   .index-container .about .bottom {
     height: 120px;
