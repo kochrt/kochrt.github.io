@@ -14,9 +14,11 @@
   {% if post.tags %}
   <div class="tag-list mx-3 mt-1">
     {% for tag in post.tags %}
-      <a href="/blog/{{ tag }}" class="tag-list-item btn btn-sm px-1 py-0 mr-1 {{ tag }} tagChip">{{ tag }}</a>
+      {% include tag.html tag=tag %}
     {% endfor %}
   </div>
   {% endif %}
-  <p class="excerpt mx-3 mt-2 text-secondary">{{ post.excerpt }}</p>
+  {% if post.excerpt %}
+    <p class="excerpt mx-3 mt-2 text-secondary">{{ post.excerpt }}</p>
+  {% endif %}
 </div>

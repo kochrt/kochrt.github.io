@@ -565,14 +565,6 @@ blockquote {
   }
 }
 
-.tagChip.Programming {
-  background-color: #cdcce4;
-
-  &:hover {
-    background-color: #c0bede;
-  }
-}
-
 .tagChip.Travel {
   background-color: #ffe8de;
 
@@ -580,6 +572,15 @@ blockquote {
     background-color: #ffe0d3;
   }
 }
+
+.tagChip.B {
+  background-color: #e3deff;
+
+  &:hover {
+    background-color: #d0caf1;
+  }
+}
+
 
 .footer {
   padding: 15px;

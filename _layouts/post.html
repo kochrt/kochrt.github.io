@@ -5,7 +5,7 @@ layout: headerfooter
   <a href="/">&lt; Blog</a>
   <div class="tag-list ml-auto">
     {% for tag in page.tags %}
-      <a href="/blog/{{ tag }}" class="tag-list-item btn btn-sm px-1 py-0 mr-1 {{ tag }} tagChip">{{ tag }}</a>
+      {% include tag.html tag=tag %}
     {% endfor %}
   </div>
 </div>
