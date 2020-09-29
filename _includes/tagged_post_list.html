@@ -1,7 +1,15 @@
-<div class="posts">
-  {% for post in site.posts %}
-    {% if post.tags contains page.tagName %}
-      {% include postrow.html %}
-    {% endif %}
-  {% endfor %}
+<div class="main-container">
+  {% include blog_sub_header.html tags=include.tag %}
+  {% if include.tagDescription %}
+  <div class="posts-header mt-3">
+    <h6 class="title-year mx-3">{{ include.tagDescription }}</h6>
+  </div>
+  {% endif %}
+  <div class="posts">
+    {% for post in site.posts %}
+      {% if post.tags contains page.tagName %}
+        {% include postrow.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: headerfooter
-tagName: Tech
-tagDescription: Stuff about tech, more broad than just programming
+tagName: Tweets
+tagDescription: Short entries
 ---
 {% include tagged_post_list.html tagDescription=page.tagDescription  tag=page.tagName %}

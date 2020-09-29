@@ -1,0 +1,10 @@
+<div class='sticky-section'>
+  {% if include.title_link %}
+    <a href="{{ include.title_link }}"><h6>{{ include.title }}</h6></a>
+  {% else %}
+    <h6>{{ include.title }}</h6>
+  {% endif %}
+  {% if include.map %}
+    {{ include.map }}
+  {% endif %}
+</div>

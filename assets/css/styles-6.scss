@@ -442,6 +442,16 @@ p {
   }
 }
 
+.anchored-sidebar-container {
+  overflow: visible !important;
+}
+
+.sticky-section {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 20px;
+}
+
 .post-wrapper {
   background: #fff;
 
@@ -513,6 +523,33 @@ blockquote {
   margin: 0 auto;
 }
 
+.main-container-wide {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stop-row {
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+  }
+
+  p {
+    max-width: 800px;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+.resume-body {
+  p {
+    margin-bottom: 0.5em;
+  }
+}
+
 .blog-header {
   background: #f8f8f8;
   border-radius: 0px;
@@ -558,10 +595,10 @@ blockquote {
 }
 
 .tagChip.Musings {
-  background-color: #ffe8de;
+  background-color: #e8e8e8;
 
   &:hover {
-    background-color: #ffe0d3;
+    background-color: #dedede;
   }
 }
 
@@ -569,7 +606,7 @@ blockquote {
   background-color: #ffe8de;
 
   &:hover {
-    background-color: #ffe0d3;
+    background-color: #fadbcd;
   }
 }
 
@@ -577,10 +614,25 @@ blockquote {
   background-color: #e3deff;
 
   &:hover {
-    background-color: #d0caf1;
+    background-color: #cfc9f3;
   }
 }
 
+.tagChip.Tweets {
+  background-color: #dff8db;
+
+  &:hover {
+    background-color: #d0f2cb //d5eed1;
+  }
+}
+
+.tagChip.Photos {
+  background-color: #e3f2ff;
+
+  &:hover {
+    background-color: #d6eafc;
+  }
+}
 
 .footer {
   padding: 15px;

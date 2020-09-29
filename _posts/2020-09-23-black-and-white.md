@@ -2,7 +2,7 @@
 layout: post
 title: Black and White
 excerpt: ""
-tags: Musings B
+tags: Tweets B
 ---
 > _I like the idea of a black {x}._
 >
