@@ -1,0 +1,34 @@
+- name: Musings
+  description: Thoughts about nothing in particular
+  color: "#e8e8e8"
+  hoverColor: "#dedede"
+
+- name: Tech
+  description: Stuff about tech, more broad than programming
+  color: "#dbdafc"
+  hoverColor: "#cbcafc"
+
+- name: B
+  description: Select quotes from a thought leader
+  color: "#e3deff"
+  hoverColor: "#cfc9f3"
+
+- name: Programming
+  description: Programming
+  color:
+  hoverColor:
+
+- name: Tweets
+  description: Short entries
+  color: "#dff8db"
+  hoverColor: "#d5eed1"
+
+- name: Travel
+  description: Where I've been
+  color: "#ffe8de"
+  hoverColor: "#ffe0d3"
+
+- name: Photos
+  desscription: Pictures I've taken
+  color: "#e3f2ff"
+  hoverColor: "#dbecfa"

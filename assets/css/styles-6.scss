@@ -446,14 +446,24 @@ p {
   }
 }
 
+.posts {
+  max-width: 800px;
+
+}
+
 .anchored-sidebar-container {
   overflow: visible !important;
+}
+
+.sidebar-image {
+  width: 100%;
 }
 
 .sticky-section {
   position: sticky;
   position: -webkit-sticky;
   top: 20px;
+  text-align: center;
 }
 
 .post-wrapper {

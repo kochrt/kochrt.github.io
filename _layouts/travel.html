@@ -21,23 +21,12 @@ layout: headerfooter
   <div class="main-container-wide container">
     <div class="row stop-row mb-5">
       <div class="col-lg-2 col-md-3">
-        {% include sidebar-info.html title=stop.stop map=stop.map %}
+        {% include sidebar-info.html title=stop.stop map=stop.map mapQuery=stop.mapQuery %}
       </div>
       <div class="col-lg-10 col-md-9">
         <div class='content-column p-3'>
         {% for item in stop.items %}
-          {% if item.img %}
-            <div class="mb-3 stop-image">
-              <img src="{{ item.img }}">
-              {% if item.caption %}
-                <div class='stop-image-caption'>
-                  <p class="m-2 text-white"><em>{{ item.caption }}</em></p>
-                </div>
-              {% endif %}
-            </div>
-          {% elsif item.text %}
-            <p>{{ item.text }}</p>
-          {% endif %}
+          {% include stop_items.html item=item %}
         {% endfor %}
       </div>
     </div>

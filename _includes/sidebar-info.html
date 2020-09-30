@@ -6,5 +6,12 @@
   {% endif %}
   {% if include.map %}
     {{ include.map }}
+  {% elsif include.mapQuery %}
+    <iframe
+      width="180"
+      height="180"
+      frameborder="0" style="border:0"
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCMAUYyTcS90b35rqL-dzMeN-Z4MhT14Xk&q={{ include.mapQuery }}&zoom=9" allowfullscreen>
+    </iframe>
   {% endif %}
 </div>
