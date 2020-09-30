@@ -19,10 +19,16 @@ travel:
   - stop: Crater Lake, OR
     map: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482911.9814484661!2d-122.32149806514951!3d42.97332550696909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54c63e84c023ab41%3A0xbae1bf19c88b877a!2sCrater%20Lake!5e0!3m2!1sen!2sus!4v1601357705851!5m2!1sen!2sus" width="180" height="180" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     items: 
-      - text: |+
+      - text: |
           We got in to Crater Lake pretty late - probably between 9:30pm and 10:00pm. What this meant was tired, foggy driving next to a sheer cliff that you couldn't see. 
-
-          Unfortunately I didn't save the dash cam footage in time, but 
+          <br><br>
+          Unfortunately I didn't save the dash cam footage in time, but needless to say it was 
       - img: https://lh3.googleusercontent.com/InCgG4470ATRgQU87fytFc8oqeVFby7rH0YhL1wu4mitt4o71w1vHnEBPLMGVcKvP-6GeIajOOhYlv86WbPZezM-gEpmL2RWXvPUCXTK2dqDywrRg8r-tRZUpvjzBlqIhiOydjvgwUw=w2000
+        caption: Sitting in the back of the car
+
       - img: https://lh3.googleusercontent.com/LOQNyuN-KxxRP2GQwvpDWFIsz4cLAuHDVY-8iEZD6ydHsKVe7h43Bop6Px03gtnCh2L-NKFIzsOgWtWgot_olgNl3OEpFlD07hCXOnS6iivX6eLYLUdp1SCZBlkZU6OnWW1ED3coJOM=w2000
+        caption: View from close to the lodge
+
+      - img: https://lh3.googleusercontent.com/hy3NFeSVkI-2FPJvmdmg7i-JkCOEhn-eqO8ejAv3znOFYnYi2HHDoVGzlrFt7jFwebgCKCHAHvbGfam9RcnaybXQ5OsDlk5eZGohhJQqA4x-X5gpdNDPacPYRFDTINuUMQnyhWMjG0Y=w2000
+        caption: The Lodge is in this picture as well as Mt McLoughlin (I think it's Mt McLoughlin anyway)
 ---

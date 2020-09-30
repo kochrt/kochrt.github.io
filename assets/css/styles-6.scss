@@ -62,6 +62,10 @@ p {
   line-height: 1.5;
 }
 
+.main-navbar {
+  background-color: #f3f3f3;
+}
+
 .sidebar-wrapper {
   background: #4B6A78;
   position: absolute;
@@ -453,7 +457,7 @@ p {
 }
 
 .post-wrapper {
-  background: #fff;
+  // background: #fff;
 
   .title-wrapper {
     display: flex;
@@ -529,18 +533,31 @@ blockquote {
 }
 
 .stop-row {
-
-  h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
-  }
-
   p {
     max-width: 800px;
   }
 
-  img {
-    width: 100%;
-    margin-bottom: 1em;
+  .stop-image {
+    position: relative;
+
+    img {
+      width: 100%;
+      border-radius: .25rem;
+    }
+    .stop-image-caption {
+      visibility: hidden;
+      background-color: #0000008a;
+
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    &:hover {
+      .stop-image-caption {
+        visibility: visible;
+      }
+    }
   }
 }
 
@@ -564,6 +581,13 @@ blockquote {
 
 .blog-sub-header {
   max-width: 800px;
+  margin: 0 auto;
+}
+
+.content-column {
+  background-color: #fff;
+  border-radius: .25rem;
+  box-shadow: 0px 1px 3px 1px #e0e0e0;
 }
 
 .skillset {

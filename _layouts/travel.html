@@ -1,9 +1,9 @@
 ---
 layout: headerfooter
 ---
-<div class="main-container">
+<div class="main-container-wide container">
   {% include blog_sub_header.html tags=page.tags %}
-  <div class="post-wrapper mt-3">
+  <div class="post-wrapper">
     <div class="title-wrapper">
       <h3 class="title"> {{ page.title }}</h3>
     </div>
@@ -24,14 +24,23 @@ layout: headerfooter
         {% include sidebar-info.html title=stop.stop map=stop.map %}
       </div>
       <div class="col-lg-10 col-md-9">
+        <div class='content-column p-3'>
         {% for item in stop.items %}
           {% if item.img %}
-            <img src="{{ item.img }}">
+            <div class="mb-3 stop-image">
+              <img src="{{ item.img }}">
+              {% if item.caption %}
+                <div class='stop-image-caption'>
+                  <p class="m-2 text-white"><em>{{ item.caption }}</em></p>
+                </div>
+              {% endif %}
+            </div>
           {% elsif item.text %}
             <p>{{ item.text }}</p>
           {% endif %}
         {% endfor %}
       </div>
+    </div>
     </div>
   </div>
 {% endfor %}
