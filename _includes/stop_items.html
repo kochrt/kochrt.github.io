@@ -1,12 +1,16 @@
 {% if include.item.img %}
-  <div class="mb-3 stop-image">
-    <img src="{{ item.img }}">
+<div class="main-container-wide">
+  <div class="mb-4 stop-image">
+    <img src="{{ item.img | split: '=w' | first | append: '=w2000'}}">
     {% if include.item.caption %}
-      <div class='stop-image-caption'>
-        <p class="m-2 text-white"><em>{{ include.item.caption }}</em></p>
-      </div>
+    <div class='stop-image-caption'>
+      <p class="m-2 text-white"><em>{{ include.item.caption }}</em></p>
+    </div>
     {% endif %}
   </div>
+</div>
 {% elsif include.item.text %}
+<div class="main-container">
   <p>{{ include.item.text }}</p>
+</div>
 {% endif %}

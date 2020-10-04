@@ -1,17 +1,17 @@
-<div class='sticky-section'>
+<div class="main-container">
   {% if include.title_link %}
-    <a href="{{ include.title_link }}"><h6>{{ include.title }}</h6></a>
+    <a href="{{ include.title_link }}"><h5>{{ include.title }}</h5></a>
   {% else %}
-    <h6>{{ include.title }}</h6>
+    <h5 class="subtitle">{{ include.title }}</h5>
   {% endif %}
   {% if include.map %}
     {{ include.map }}
   {% elsif include.mapQuery %}
-    <iframe
+    <!-- <iframe
       width="180"
       height="180"
       frameborder="0" style="border:0"
-      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCMAUYyTcS90b35rqL-dzMeN-Z4MhT14Xk&q={{ include.mapQuery }}&zoom=9" allowfullscreen>
-    </iframe>
+      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCMAUYyTcS90b35rqL-dzMeN-Z4MhT14Xk&q={{ include.mapQuery }}&zoom={% if include.mapZoom %}{{ include.mapZoom }}{% else %}9{% endif %}&maptype=satellite" allowfullscreen>
+    </iframe> -->
   {% endif %}
 </div>

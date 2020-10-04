@@ -11,6 +11,8 @@
 /* styles-6.css */
 /* ======= Base ======= */
 
+@import "open-color";
+
 .has-background {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
@@ -44,14 +46,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #2e4049;
+  color: $oc-gray-5;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   &:hover {
     text-decoration: underline;
-    color: #10171a;
+    color: $oc-gray-2;
   }
   &:focus {
     text-decoration: none;
@@ -60,6 +62,10 @@ a {
 
 p {
   line-height: 1.5;
+}
+
+hr {
+  border-top: 1px solid rgba(255, 255, 255, 0.2)
 }
 
 .main-navbar {
@@ -369,12 +375,21 @@ p {
   color: #515862;
 }
 
+.post-row {
+  // box-shadow: 0px 1px 3px 1px #2c2c2c;
+  // border-radius: 0.25rem;
+  border-bottom: 1px solid #525252;
+}
+
 .post-row-header {
   display: flex;
   align-items: center;
 
   .title-container {
     flex-grow: 1;
+    a {
+      color: $oc-gray-2
+    }
   }
 
   .date {
@@ -446,9 +461,32 @@ p {
   }
 }
 
+.text-dark-secondary {
+  color: #cecece;
+}
+
+.excerpt {
+  margin-bottom: 0;
+}
+
 .posts {
   max-width: 800px;
+}
 
+.post-img-row {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  --webkit-overflow-scrolling: touch;
+
+  img {
+    border-radius: .15rem;
+
+    max-width: 400px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+  }
 }
 
 .anchored-sidebar-container {
@@ -457,13 +495,24 @@ p {
 
 .sidebar-image {
   width: 100%;
+  max-width: 200px;
 }
 
 .sticky-section {
   position: sticky;
   position: -webkit-sticky;
   top: 20px;
-  text-align: center;
+
+  color: $oc-gray-2;
+}
+
+.subtitle {
+  color: $oc-gray-2;
+}
+
+.sidebar-section {
+  max-width: 800px;
+  color: $oc-gray-4;
 }
 
 .post-wrapper {
@@ -523,7 +572,7 @@ p {
 
 blockquote {
   padding: 0 1em;
-  color: #6a737d;
+  color: $oc-gray-6;
   border-left: .25em solid #dfe2e5;
 }
 
@@ -535,6 +584,11 @@ blockquote {
 .main-container {
   max-width: 800px;
   margin: 0 auto;
+
+  h1, h2, h3, h4, h5, h6, p {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 .main-container-wide {
@@ -549,6 +603,8 @@ blockquote {
 
   .stop-image {
     position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
 
     img {
       width: 100%;
@@ -595,9 +651,9 @@ blockquote {
 }
 
 .content-column {
-  background-color: #fff;
+  color: $oc-gray-3;
   border-radius: .25rem;
-  box-shadow: 0px 1px 3px 1px #e0e0e0;
+  // box-shadow: 0px 1px 3px 1px #2c2c2c;
 }
 
 .skillset {
@@ -628,45 +684,46 @@ blockquote {
   }
 }
 
-.tagChip.Musings {
-  background-color: #e8e8e8;
-
-  &:hover {
-    background-color: #dedede;
-  }
-}
-
 .tagChip.Travel {
-  background-color: #ffe8de;
+  background-color: $oc-red-3;
 
   &:hover {
-    background-color: #fadbcd;
-  }
-}
-
-.tagChip.B {
-  background-color: #e3deff;
-
-  &:hover {
-    background-color: #cfc9f3;
-  }
-}
-
-.tagChip.Tweets {
-  background-color: #dff8db;
-
-  &:hover {
-    background-color: #d0f2cb //d5eed1;
+    background-color:  $oc-red-4;
   }
 }
 
 .tagChip.Photos {
-  background-color: #e3f2ff;
+  background-color: $oc-blue-3;
 
   &:hover {
-    background-color: #d6eafc;
+    background-color: $oc-blue-4;
   }
 }
+
+.tagChip.Tweets {
+  background-color: $oc-cyan-3;
+
+  &:hover {
+    background-color: $oc-cyan-4;
+  }
+}
+
+.tagChip.B {
+  background-color: $oc-indigo-3;
+
+  &:hover {
+    background-color: $oc-indigo-4;
+  }
+}
+
+.tagChip.Programming {
+  background-color: $oc-lime-3;
+
+  &:hover {
+    background-color:  $oc-lime-4;
+  }
+}
+
 
 .footer {
   padding: 15px;
@@ -707,10 +764,6 @@ blockquote {
     .upper-row {
       margin-bottom: 0;
     }
-  }
-  .post-wrapper {
-    width: 90%;
-    margin: auto;
   }
   .index-container .about .bottom {
     height: 120px;

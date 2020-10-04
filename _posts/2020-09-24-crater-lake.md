@@ -8,12 +8,12 @@ travel:
     mapQuery: Wymer,+WA
     items:
       - text: |
-          Yakima Canyon was the first 'scenicly noteworthy' part of our trip aside from the drive through the Cascades. And the Ellensburg area. Which are both nice in themselves.
+          Yakima Canyon was the first 'scenically noteworthy' part of our trip aside from the drive through the Cascades. And the Ellensburg area. Which are both nice in themselves.
           <br><br>
           Anyway there's a nice little river running through the area, alongside Canyon Rd, as well as probably half a dozen parks. 
       - img: https://lh3.googleusercontent.com/zndDp4L_8aHqbTM9B8s0_XmLwaeWh2thXI3icIxC0We_o3vgkdKIT82k1uPxHL1U5TaBUKfXKqPnwfb_rExbqCKOHFN39-LSWY8NIvTDAqIuh2UzL0jCmgEUit845SY_gfMZIRnS6a8=w2000
-      - img: https://lh3.googleusercontent.com/Oe-3_ps9Do30WBZsBc8Hrbb1v8X56XGDpyPR5VPL-UX-1ug6QiLWBpT-bhyyutqMSMzO85Rnm5fHpJKii8fA1N28YuFmNZUDRQI8UlPkhiG_VP9JmYw-vAUwS4jZ2qCeiu3Pn39yzck=w2000
-      
+      - img: https://lh3.googleusercontent.com/Oe-3_ps9Do30WBZsBc8Hrbb1v8X56XGDpyPR5VPL-UX-1ug6QiLWBpT-bhyyutqMSMzO85Rnm5fHpJKii8fA1N28YuFmNZUDRQI8UlPkhiG_VP9JmYw-vAUwS4jZ2qCeiu3Pn39yzck=w2000 
+
   - stop: Hood River, OR
     mapQuery: Hood+River,+OR
     items:

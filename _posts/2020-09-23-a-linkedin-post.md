@@ -2,7 +2,7 @@
 layout: post
 title: A LinkedIn post
 excerpt: I wanted to get a job at this company.
-tags: Musings Tweets
+tags: Tweets
 ---
 I wanted to get a job at this company. 
 

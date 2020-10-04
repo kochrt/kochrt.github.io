@@ -1,19 +1,21 @@
 <div class="main-container-wide container">
   <div class="row">
-    <div class="col-lg-2 col-md-3 mt-5">
-      <img class="sidebar-image" src="/assets/images/robkoch_crop_tight copy.png">
-      <p>In the words of the onion</p>
+    <div class="col-lg-2 col-md-3 mt-5 ">
+      <div class='sticky-section'>
+        <p class="pt-2">Technologist, or, <a href="https://www.youtube.com/watch?v=9U4Ha9HQvMo&t=106">in the words of The Onion</a></p>
+        <a href="/resume">Résumé</a>
+      </div>
     </div>
     <div class="col-lg-10 col-md-9 posts px-0 mt-5">
       {% for post in site.posts %}
       {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
       {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
       {% if forloop.first %}
-      <h4 class="title-year mx-3" id="{{ this_year }}-ref">{{this_year}}</h4>
+      <h4 class="title-year mx-3 text-light" id="{{ this_year }}-ref">{{this_year}}</h4>
       {% endif %}
       {% include postrow.html %}
       {% if this_year != next_year %}
-      <h4 class="title-year mx-3 mt-5" id="{{ next_year }}-ref">{{next_year}}</h4>
+      <h4 class="title-year mx-3 mt-5 text-light" id="{{ next_year }}-ref">{{next_year}}</h4>
       {% endif %}
       {% endfor %}
     </div>

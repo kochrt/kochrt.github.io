@@ -1,36 +1,20 @@
 ---
 layout: headerfooter
 ---
-<div class="main-container-wide container">
-  {% include blog_sub_header.html tags=page.tags %}
-  <div class="post-wrapper">
-    <div class="title-wrapper">
-      <h3 class="title"> {{ page.title }}</h3>
-    </div>
-    <div class="date-wrapper">
-      <h5 class="date text-secondary">{{ page.date | date: "%b %-d, %Y" }}</h5>
-    </div>
-    {% if page.subtitle %}
-    <!-- <center><h4 class="subtitle"><i>{{ page.subtitle }}</i></h4></center> -->
-    {% endif %}
-  </div>
+{% include blog_sub_header.html tags=page.tags %}
+<div class="post-wrapper">
+  {% include post-title.html title=page.title date=page.date %}
 </div>
-<br>
 {{ content }}
 {% for stop in page.travel %}
-  <div class="main-container-wide container">
-    <div class="row stop-row mb-5">
-      <div class="col-lg-2 col-md-3">
-        {% include sidebar-info.html title=stop.stop map=stop.map mapQuery=stop.mapQuery %}
-      </div>
-      <div class="col-lg-10 col-md-9">
-        <div class='content-column p-3'>
-        {% for item in stop.items %}
-          {% include stop_items.html item=item %}
-        {% endfor %}
-      </div>
+<div class="stop-row mb-5">
+  <div class='content-column'>
+    <div class="main-container">
+      <h5 class="subtitle">{{ stop.stop }}</h5>
     </div>
-    </div>
+    {% for item in stop.items %}
+    {% include stop_items.html item=item %}
+    {% endfor %}
   </div>
+</div>
 {% endfor %}
-<br>

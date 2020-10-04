@@ -4,18 +4,10 @@ layout: headerfooter
 <div class="main-container">
   {% include blog_sub_header.html tags=page.tags %}
   <div class="post-wrapper mt-3">
-    <div class="title-wrapper">
-      <h3 class="title"> {{ page.title }}</h3>
+    {% include post-title.html title=page.title date=page.date %}
+    <div class="content-column">
+      {{ content }}
     </div>
-
-    <div class="date-wrapper">
-      <h5 class="date text-secondary">{{ page.date | date: "%b %-d, %Y" }}</h5>
-    </div>
-    {% if page.subtitle %}
-    <!-- <center><h4 class="subtitle"><i>{{ page.subtitle }}</i></h4></center> -->
-    {% endif %}
-    <br>
-    {{ content }}
     <br>
   </div>
 </div>
