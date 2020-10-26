@@ -383,7 +383,6 @@ hr {
 
 .post-row-header {
   display: flex;
-  align-items: center;
 
   .title-container {
     flex-grow: 1;
@@ -395,6 +394,7 @@ hr {
   .date {
     font-weight: 400;
     color: #515862;
+    white-space: nowrap;
   }
 
   p {
@@ -797,6 +797,10 @@ blockquote {
 .blog-footer {
   color: $oc-gray-3;
   padding: 15px;
+}
+
+.post-end {
+  max-width: 800px;
 }
 
 /* Extra small devices (phones, less than 768px) */

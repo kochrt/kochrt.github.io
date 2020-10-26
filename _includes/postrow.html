@@ -1,24 +1,22 @@
 <div class="post-row bg-darker pt-3 pb-4 mb-0">
-  <div>
-    <div class="post-row-header mx-3">
-      <div class="title-container">
-        <p class="m-0">
-          <a class="link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <br>
-        </p>
-      </div>
-      <div class="date">
-        <small class="m-0 text-dark-secondary">{{ post.date | date: "%b %-d, %Y" }}</small>
-      </div>
+  <div class="post-row-header mx-3">
+    <div class="title-container">
+      <p class="m-0">
+        <a class="link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <br>
+      </p>
     </div>
-    {% if post.tags.size > 0 %}
-    <div class="tag-list mx-3 mt-1">
-      {% for tag in post.tags %}
-      {% include tag.html tag=tag %}
-      {% endfor %}
+    <div class="date ml-2">
+      <small class="m-0 text-dark-secondary">{{ post.date | date: "%b %-d, %Y" }}</small>
     </div>
-    {% endif %}
   </div>
+  {% if post.tags.size > 0 %}
+  <div class="tag-list mx-3 mt-1">
+    {% for tag in post.tags %}
+    {% include tag.html tag=tag %}
+    {% endfor %}
+  </div>
+  {% endif %}
 
   {% if post.excerpt.size > 0 %}
   <p class="excerpt mx-3 text-dark-secondary {% if post.tags.size > 0 %}mt-2{% endif %}">{{ post.excerpt }}</p>
