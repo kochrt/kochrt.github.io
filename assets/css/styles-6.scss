@@ -470,10 +470,6 @@ hr {
   margin-bottom: 0;
 }
 
-.posts {
-  max-width: 800px;
-}
-
 .post-img-row {
   display: flex;
   flex-wrap: nowrap;
@@ -517,12 +513,14 @@ hr {
 }
 
 .post-wrapper {
-  // background: #fff;
+  max-width: 800px;
+  margin: 0 auto;
 
   .title-wrapper {
     display: flex;
     justify-content: center;
     .title {
+      text-align: center;
       font-weight: 300;
     }
   }
@@ -597,6 +595,31 @@ blockquote {
   margin: 0 auto;
 }
 
+.img-comp {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: .25rem;
+  }
+
+  .stop-image-caption {
+    visibility: hidden;
+    background-color: #0000008a;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &:hover {
+    .stop-image-caption {
+      visibility: visible;
+    }
+  }
+}
+
 .stop-row {
   p {
     max-width: 800px;
@@ -653,8 +676,29 @@ blockquote {
 
 .content-column {
   color: $oc-gray-3;
-  border-radius: .25rem;
-  // box-shadow: 0px 1px 3px 1px #2c2c2c;
+  
+  .container {
+    max-width: 800px;
+  }
+}
+
+.info-banner {
+  background-color: $oc-indigo-8;
+
+  .banner-title {
+    color: $oc-yellow-0;
+    // .fa-lightbulb {
+    //   color: $oc-yellow-2
+    // }
+  }
+
+  .banner-subtitle {
+    color: $oc-indigo-2;
+  }
+
+  .banner-content {
+    color: $oc-indigo-3;
+  }
 }
 
 .skillset {
@@ -743,6 +787,7 @@ blockquote {
 }
 
 .blog-footer {
+  color: $oc-gray-3;
   padding: 15px;
 }
 
@@ -805,4 +850,8 @@ used for profile image
   border: 0px solid #fff;
   border-radius: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.bg-darker {
+  background: #22272c
 }

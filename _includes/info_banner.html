@@ -1,0 +1,11 @@
+<div class="container info-banner shadow pt-2 mb-3 d-flex flex-column">
+  <div>
+    <div class="banner-title py-1">
+      <p class="m-0"><em><span><i class="far fa-lightbulb"></i></span> {{ include.title }}</em></p>
+    </div>
+    {% if include.subtitle %}
+    <h6 class="banner-subtitle">{{ include.subtitle }}</h6>
+    {% endif %}
+  </div>
+  <div class="banner-content">{{ include.content | markdownify }}</div>
+</div>

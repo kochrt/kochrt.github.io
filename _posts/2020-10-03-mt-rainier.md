@@ -1,5 +1,5 @@
 ---
-layout: travel
+layout: post
 title: Mt. Rainier
 excerpt: Some mountain
 tags: Travel Photos

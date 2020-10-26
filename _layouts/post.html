@@ -1,13 +1,17 @@
 ---
 layout: headerfooter
 ---
-<div class="main-container">
-  {% include blog_sub_header.html tags=page.tags %}
-  <div class="post-wrapper mt-3">
-    {% include post-title.html title=page.title date=page.date %}
-    <div class="content-column">
-      {{ content }}
+{% include blog_sub_header.html tags=page.tags %}
+<div class="post-wrapper pt-3">
+  {% include post-title.html title=page.title date=page.date %}
+</div>
+<div class="stop-row mb-5 pb-3">
+  <div class='content-column'>
+    <div class="main-container">
+      <h5 class="subtitle">{{ stop.stop }}</h5>
     </div>
+    {{ content}}
     <br>
+    <hr class="container">
   </div>
 </div>

@@ -1,16 +1,16 @@
 {% if include.item.img %}
-<div class="main-container-wide">
-  <div class="mb-4 stop-image">
-    <img loading="lazy" src="{{ item.img | split: '=w' | first | append: '=w2000'}}">
-    {% if include.item.caption %}
-    <div class='stop-image-caption'>
-      <p class="m-2 text-white"><em>{{ include.item.caption }}</em></p>
-    </div>
-    {% endif %}
-  </div>
-</div>
+  {% include stop_image.html img=include.item.img caption=include.item.caption %}
 {% elsif include.item.text %}
 <div class="main-container">
-  <p>{{ include.item.text }}</p>
+  <p>{{ include.item.text | markdownify }}</p>
+</div>
+{% elsif include.item.imgComp %}
+<div class="container-fluid row m-auto p-0" style="max-width: 1400px;">
+  <div class="col-lg-6">
+    <img class="rounded" loading="lazy" src="{{ item.imgComp.img1 | split: '=w' | first | append: '=w2000' }}" style="width: 100%">
+  </div>
+  <div class="col-lg-6">
+    <img class="rounded" loading="lazy" src="{{ item.imgComp.img2 | split: '=w' | first | append: '=w2000' }}" style="width: 100%">
+  </div>
 </div>
 {% endif %}

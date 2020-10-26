@@ -1,0 +1,18 @@
+<div class="container-fluid d-flex flex-wrap">
+  <div class="col-md-6 img-comp">
+    <img loading="lazy" src="{{ include.img1 | split: '=w' | first | append: '=w2000'}}" style="width: 100%; height: auto">
+    {% if include.caption1 %}
+    <div class='stop-image-caption'>
+      <p class="m-2 text-white"><em>{{ include.caption1 }}</em></p>
+    </div>
+    {% endif %}
+  </div>
+  <div class="col-md-6 img-comp">
+    <img loading="lazy" src="{{ include.img2 | split: '=w' | first | append: '=w2000'}}" style="width: 100%; height: auto">
+    {% if include.caption2 %}
+    <div class='stop-image-caption'>
+      <p class="m-2 text-white"><em>{{ include.caption2 }}</em></p>
+    </div>
+    {% endif %}
+  </div>
+</div>

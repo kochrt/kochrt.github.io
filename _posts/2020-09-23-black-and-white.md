@@ -4,6 +4,7 @@ title: Black and White
 excerpt: ""
 tags: Tweets B
 ---
+{:.container}
 > _I like the idea of a black {x}._
 >
 > _Like black and white._

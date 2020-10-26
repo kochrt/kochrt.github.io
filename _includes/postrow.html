@@ -1,9 +1,9 @@
-<div class="post-row bg-dark pt-3 pb-4 mb-0">
+<div class="post-row bg-darker pt-3 pb-4 mb-0">
   <div>
     <div class="post-row-header mx-3">
       <div class="title-container">
         <p class="m-0">
-          <a class="link" href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+          <a class="link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           <br>
         </p>
       </div>
@@ -24,14 +24,10 @@
   <p class="excerpt mx-3 text-dark-secondary {% if post.tags.size > 0 %}mt-2{% endif %}">{{ post.excerpt }}</p>
   {% endif %}
 
-  {% if post.travel %}
+  {% if post.images %}
   <div class="px-3 post-img-row pt-2">
-    {% for stop in post.travel %}
-    {% for item in stop.items %}
-    {% if item.img %}
-    <a href="{{ post.url }}"><img class="mr-2" src="{{ item.img | split: '=w' | first | append: '=w400' }}"></a>
-    {% endif %}
-    {% endfor %}
+    {% for image in post.images %}
+      <a href="{{ post.url }}"><img class="mr-2" src="{{ image | split: '=w' | first | append: '=w400' }}"></a>
     {% endfor %}
   </div>
   {% endif %}
