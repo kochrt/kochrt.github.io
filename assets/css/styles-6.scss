@@ -634,6 +634,14 @@ blockquote {
       width: 100%;
       border-radius: .25rem;
     }
+
+    .banner-image {
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 0px;
+      opacity: 0.5;
+    }
+
     .stop-image-caption {
       visibility: hidden;
       background-color: #0000008a;
