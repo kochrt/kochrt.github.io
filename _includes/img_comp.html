@@ -11,7 +11,7 @@
   {% endif %}
   <div class="d-flex flex-wrap">
     <div class="col-md-6 img-comp mb-1">
-      <img class="shadow" loading="lazy" src="{{ include.img1 | split: '=w' | first | append: '=w2000'}}"
+      <img id="img-{{ include.id1 }}" class="shadow" loading="lazy" src="{{ include.img1 | split: '=w' | first | append: '=w2000'}}"
         style="width: 100%; height: auto">
       {% if include.caption1 %}
       <div class='stop-image-caption'>
@@ -20,7 +20,7 @@
       {% endif %}
     </div>
     <div class="col-md-6 img-comp mb-1">
-      <img class="shadow" loading="lazy" src="{{ include.img2 | split: '=w' | first | append: '=w2000'}}"
+      <img id="img-{{ include.id2 }}" class="shadow" loading="lazy" src="{{ include.img2 | split: '=w' | first | append: '=w2000'}}"
         style="width: 100%; height: auto">
       {% if include.caption2 %}
       <div class='stop-image-caption'>

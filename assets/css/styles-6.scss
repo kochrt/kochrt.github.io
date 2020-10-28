@@ -569,10 +569,18 @@ hr {
   }
 }
 
+.caption-wrapper {
+  text-align: end;
+}
+
 blockquote {
   padding: 0 1em;
   color: $oc-gray-6;
   border-left: .25em solid #dfe2e5;
+
+  p {
+    margin-bottom: 0;
+  }
 }
 
 .tag-list {

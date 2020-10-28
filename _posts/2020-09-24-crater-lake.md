@@ -26,11 +26,13 @@ Yakima Canyon was the first 'scenically noteworthy' part of our trip aside from 
 {:.container}
 Anyway there's a nice little river running through the area, alongside Canyon Rd, as well as probably half a dozen parks.
 
-{% assign image=page.images[0] %}
-{% include stop_image.html img=image %}
+{% assign index = 0 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image id=index %}
 
-{% assign image=page.images[1] %}
-{% include stop_image.html img=image %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image id=index %}
 
 {:.container.pt-5}
 ##### Hood River, OR
@@ -38,20 +40,24 @@ Anyway there's a nice little river running through the area, alongside Canyon Rd
 {:.container}
 Hood River is a very cool town on the Columbia River. We didn't stay long, though. We drove south on route 197 to Maupin and then down to Bend. Plenty of interesting geography and scenery in the meantime though.
 
-{% assign image=page.images[2] %}
-{% include stop_image.html img=image %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image id=index %}
 
 {:.container}
 One such interesting geographical landmark is the Crooked River and the High Bridge that crosses it.
 
-{% assign image=page.images[3] %}
-{% include stop_image.html img=image %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image id=index %}
 
-{% assign image=page.images[4] %}
-{% include stop_image.html img=image caption="The Crooked River High Bridge" %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image caption="The Crooked River High Bridge" id=index %}
 
-{% assign image=page.images[5] %}
-{% include stop_image.html img=image caption="B for size comparison" %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image caption="B for size comparison" id=index %}
 
 {:.container.pt-5}
 ##### Bend, OR
@@ -59,14 +65,16 @@ One such interesting geographical landmark is the Crooked River and the High Bri
 {:.container}
 Just a little south of the Crooked River High Bridge is Redmond, OR and Smith Rock state park.
 
-{% assign image=page.images[6] %}
-{% include stop_image.html img=image caption="Smith Rock State Park" %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image caption="Smith Rock State Park" id=index %}
 
 {:.container}
 Smith Rock kind of comes out of nowhere, but it's right off the main road and is worth a visit. 
 
-{% assign image=page.images[7] %}
-{% include stop_image.html img=image caption="Smith Rock State Park" %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image caption="Smith Rock State Park" id=index %}
 
 {:.container.pt-5}
 ##### Crater Lake, OR
@@ -77,14 +85,18 @@ We got in to Crater Lake pretty late - probably between 10:30pm and 11:00pm. Wha
 {:.container}
 Unfortunately I didn't save the dash cam footage in time, but needless to say it was anxiety producing. Anyway, these pictures are from the next two days when we could actually see where we were going.
 
-{% assign image=page.images[8] %}
-{% include stop_image.html img=image caption="Sitting in the back of the car. I went to the University of Washington btw" %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image caption="Sitting in the back of the car. I went to the University of Washington btw" id=index %}
 
-{% assign image=page.images[9] %}
-{% include stop_image.html img=image caption="What you would see if you were behind us looking at the lake" %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image caption="What you would see if you were behind us looking at the lake" id=index %}
 
-{% assign image=page.images[10] %}
-{% include stop_image.html img=image caption="The Lodge is in this picture as well as Mt McLoughlin (I think it's Mt McLoughlin anyway)" %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image caption="The Lodge is in this picture as well as Mt McLoughlin (I think it's Mt McLoughlin anyway)" id=index %}
 
-{% assign image=page.images[11] %}
-{% include stop_image.html img=image caption="View south from the loop road" %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
+{% include stop_image.html img=image caption="View south from the loop road" id=index %}

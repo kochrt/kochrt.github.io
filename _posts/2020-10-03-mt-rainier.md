@@ -16,29 +16,36 @@ images:
 
 {:.container}
 We went around the east side of Rainier early in the morning (the only real time to go, otherwise you'll be in line waiting to enter the park). On the way is a trailhead off of 410, Naches Peak Loop Trail. It's an easy hike with great views of the surrounding area and Rainier.
-
-{% assign image=page.images[0] %}
+{% assign index=0 %}
+{% assign image=page.images[index] %}
 {% 
   include stop_image.html 
   img=image
+  id=index
 %}
 
-{% assign image=page.images[1] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {% 
   include stop_image.html 
   img=image
+  id=index
 %}
 
-{% assign image=page.images[2] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {% 
   include stop_image.html 
   img=image
+  id=index
 %}
 
-{% assign image=page.images[3] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {% 
   include stop_image.html 
   img=image
+  id=index
 %}
 
 {:.container.pt-5}
@@ -47,10 +54,12 @@ We went around the east side of Rainier early in the morning (the only real time
 {:.container}
 We went around the east side of Rainier early in the morning (the only real time to go, otherwise you'll be in line waiting to enter the park). It's a fun drive up with great views of the tallest mountain in the state of Washington.
 
-{% assign image=page.images[4] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {% 
   include stop_image.html 
   img=image
+  id=index
 %}
 
 {:.container.pt-5}
@@ -59,10 +68,12 @@ We went around the east side of Rainier early in the morning (the only real time
 {:.container}
 So I'm looking at these photos I took and they just don't quite work. It's an enormous mountain that you really just need to see in person.
 
-{% assign image=page.images[5] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {% 
   include stop_image.html 
   img=image
+  id=index
 %}
 
 {:.container}

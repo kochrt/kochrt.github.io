@@ -1,6 +1,6 @@
 <div class="container-fluid row m-auto p-0" style="max-width: 1200px;">
   <div class="mb-4 stop-image">
-    <img class="shadow{% if include.banner %} banner-image{% endif %}" loading="lazy" src="{{ include.img | split: '=w' | first | append: '=w2000'}}">
+    <img {% if include.id %}id="img-{{ include.id }}" {% endif %}class="shadow{% if include.banner %} banner-image{% endif %}" loading="lazy" src="{{ include.img | split: '=w' | first | append: '=w2000'}}">
     {% if include.caption %}
     <div class='stop-image-caption'>
       <p class="m-2 text-white"><em>{{ include.caption }}</em></p>

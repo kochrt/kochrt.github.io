@@ -3,7 +3,7 @@ layout: post
 title: Coeur d'Alene, Idaho
 tags: Travel Photos
 excerpt: ""
-index: 0
+index: -1
 images:
   - https://lh3.googleusercontent.com/41hd4_e6T4N765bOduTAHgJgGQP_lwY15P4fgi4iMiR7F5QTyQMJguLnpXx_SSYGBx-1RmYQJ_4bGyS9fDBDjtabF6A3urZ1PoWkwb_kkzDA7hQo6NJk_QopDYzEN6ada5-W2vCFDTw=w2400
   - https://lh3.googleusercontent.com/EfUy4CpEai2CPGcFwo0JyY2R0480b6N2i_8Z2gyh0bgmg8sBsM9fwQwX0xJO_PVW-8l3ehHmmFOZ_ikcX6i4R2D96wozXQkvsptEzGzdpEon56RxKG13-O8zIQuWUKJsd0dAfnDsv5Y=w2400
@@ -30,16 +30,20 @@ I can't say this was actually our first stop on our trip east to Coeur d'Alene, 
 {:.container}
 We decided to take 90 all the way out (as opposed to a longer route that would have included [Palouse Falls](https://en.wikipedia.org/wiki/Palouse_Falls)) so that we could spend some time that afternoon in Coeur d'Alene and not feel rushed. 
 
-{% assign image=page.images[0] %}
+{% assign index = page.index | plus: 1 %}
+{% assign image=page.images[index] %}
 {% 
   include stop_image.html 
   img=image
+  id=index
   caption="Looking east" 
 %}
 
-{% assign image=page.images[1] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
+  id=index
   img=image
 %}
 
@@ -49,10 +53,12 @@ We decided to take 90 all the way out (as opposed to a longer route that would h
 {:.container}
 Taking 90 all the way out was a good idea; we got to Spokane around lunch time. We had packed some food so we had a mini picnic on a rock at a park overlooking the city. This was just luck, I was looking on a map and this looked like a park that might have a nice view. It worked out. Also the lesson here was that packing food is ideal. 
 
-{% assign image=page.images[2] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
   img=image
+  id=index
   caption="This is not an optical illusion - B is actually the size of a normal person."
 %}
 
@@ -62,10 +68,12 @@ Taking 90 all the way out was a good idea; we got to Spokane around lunch time. 
 {:.container}
 Cool little town just between Spokane and Coeur d'Alene, which themselves are only ~20 minutes from each other. There is a set of three dams that have some history related to logging.
 
-{% assign image=page.images[3] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
   img=image
+  id=index
   caption="A dam prevents water from flowing freely."
 %}
 
@@ -93,72 +101,96 @@ Surely we had a good view of the lake, though, right? No, we were in the corner.
 {:.container}
 We went back to the B&B we were staying at, [The Roosevelt Inn](http://www.therooseveltinn.com). We had missed the complimentary glass-of-wine-by-the-fire-hour, but we had enough left on our gift card that we bought a bottle of wine and drank by the fire pit for most of the evening.
 
-{% assign image1=page.images[4] %}
-{% assign image2=page.images[5] %}
+{% assign index = index | plus: 1 %}
+{% assign image1=page.images[index] %}
+{% assign id1 = index %}
+{% assign index = index | plus: 1 %}
+{% assign id2 = index %}
+{% assign image2=page.images[index] %}
 {%
   include img_comp.html
   title="##### Camera Comparison"
   description="My iPhone SE(2) on the left, Fuji x100f on the right. At [The Roosevelt Inn](http://www.therooseveltinn.com)'s fire pit."
   img1=image1
+  id1=id1
   img2=image2
+  id2=id2
 %}
 
 {:.container}
 We left the next morning. We went to Coulee Dam via Rt 2. The drive between Spokane and Grand Coulee was nice, a lot of farmland and wheat fields. There was also visible fire damage.
 
-{% assign image=page.images[6] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
+  id=index
   img=image
 %}
 
-{% assign image=page.images[7] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
+  id=index
   img=image
 %}
 
-{% assign image=page.images[8] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
+  id=index
   img=image
 %}
 
-{% assign image=page.images[9] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
+  id=index
   img=image
 %}
 
 {:.container}
 As usual, the scenery was beautiful. We had a little picnic at Coulee Dam (the second dam of the trip, wow) and then finished the drive through the Columbia River Gorge. The Gorge is, quite simply, very cool.
 
-{% assign image=page.images[10] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
+  id=index
   img=image
 %}
 
-{% assign image=page.images[11] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
+  id=index
   img=image
 %}
 
-{% assign image=page.images[12] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
+  id=index
   img=image
 %}
 
-{% assign image=page.images[13] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
+  id=index
   img=image
 %}
 
-{% assign image=page.images[14] %}
+{% assign index = index | plus: 1 %}
+{% assign image=page.images[index] %}
 {%
   include stop_image.html
+  id=index
   img=image
 %}
