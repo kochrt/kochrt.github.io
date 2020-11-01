@@ -1,0 +1,6 @@
+<div class="pt-3 d-flex flex-wrap">
+  {% for tag in site.tags %}
+    {% assign t = tag | first %}
+    {% include tag.html tag=t %}
+  {% endfor %}
+</div>

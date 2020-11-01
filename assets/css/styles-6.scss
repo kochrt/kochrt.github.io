@@ -569,6 +569,11 @@ hr {
   }
 }
 
+.golden {
+  color: gold;
+  text-shadow: 0 0 9px #ffffff6e;
+}
+
 .caption-wrapper {
   text-align: end;
 }
@@ -705,6 +710,12 @@ blockquote {
 }
 
 .info-banner {
+  a {
+    text-decoration: underline;
+  }
+}
+
+.info-banner-blue {
   background-color: $oc-indigo-8;
 
   .banner-title {
@@ -720,6 +731,54 @@ blockquote {
 
   .banner-content {
     color: $oc-indigo-3;
+  }
+}
+
+.info-banner-red {
+  background-color: $oc-red-3;
+
+  .banner-title {
+    color: $oc-red-9;
+  }
+
+  .banner-subtitle {
+    color: $oc-gray-7;
+  }
+
+  .banner-content {
+    color: $oc-gray-8;
+  }
+}
+
+.info-banner-light-blue {
+  background-color: $oc-blue-3;
+
+  .banner-title {
+    color: $oc-blue-9;
+  }
+
+  .banner-subtitle {
+    color: $oc-gray-7;
+  }
+
+  .banner-content {
+    color: $oc-gray-8;
+  }
+}
+
+.info-banner-gray {
+  background-color: $oc-gray-8;
+
+  .banner-title {
+    color: $oc-indigo-2;
+  }
+
+  .banner-subtitle {
+    color: $oc-gray-6;
+  }
+
+  .banner-content {
+    color: $oc-gray-5;
   }
 }
 
@@ -764,6 +823,15 @@ blockquote {
 
   &:hover {
     background-color: $oc-blue-4;
+  }
+}
+
+
+.tagChip.Unsolicited-Opinions {
+  background-color: $oc-orange-3;
+
+  &:hover {
+    background-color: $oc-orange-4;
   }
 }
 

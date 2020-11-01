@@ -1,4 +1,4 @@
-<div class="container-fluid row m-auto p-0" style="max-width: 1200px;">
+<div class="container-fluid row m-auto p-0" style="max-width: {% if include.thin %}800px{% else %}1200px;{% endif %}">
   <div class="mb-4 stop-image">
     <img {% if include.id %}id="img-{{ include.id }}" {% endif %}class="shadow{% if include.banner %} banner-image{% endif %}" loading="lazy" src="{{ include.img | split: '=w' | first | append: '=w2000'}}">
     {% if include.caption %}

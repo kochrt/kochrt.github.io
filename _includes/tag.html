@@ -1,1 +1,1 @@
-<a href="/blog/{{ include.tag }}" class="tag-list-item btn btn-sm px-1 py-0 mr-1 {{ include.tag }} tagChip">{{ include.tag }}</a>
+<a href="/blog/{{ include.tag | replace: ' ', '-' }}" class="tag-list-item btn btn-sm px-1 py-0 mb-1 mr-1 {{ include.tag | replace: ' ', '-' }} tagChip">{{ include.tag }}</a>

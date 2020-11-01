@@ -2,6 +2,7 @@
 layout: post
 title: Your price match and return policy have to match
 tags: 
+  - Unsolicited Opinions
 excerpt: ""
 ethics: |
   I typically have little sympathy for companies that spend a lot of time and effort to extract as much money from its customers as possible. 

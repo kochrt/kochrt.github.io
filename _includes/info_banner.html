@@ -1,4 +1,4 @@
-<div class="container info-banner shadow pt-2 mb-3 d-flex flex-column">
+<div class="container shadow pt-2 mb-3 d-flex flex-column info-banner info-banner-{% if include.style %}{{ include.style }}{% else %}blue{% endif %}">
   <div>
     <div class="banner-title py-1">
       <p class="m-0"><em><span><i class="far fa-lightbulb"></i></span> {{ include.title }}</em></p>
