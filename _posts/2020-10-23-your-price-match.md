@@ -28,7 +28,8 @@ Before the price could drop I got a 20% off coupon. They send these out liberall
 
 {% 
 include info_banner.html
-title="Ethics and Morality" 
+title="Ethics and Morality"
+fontAwesome="far fa-lightbulb"
 subtitle="Is what I'm describing ethical? 🤔" 
 content=page.ethics
 %}

@@ -81,6 +81,7 @@ I understand that this is a naïve position. But it leads to our current problem
 include info_banner.html
 style="gray"
 title="Counterargument" 
+fontAwesome="fas fa-meteor"
 subtitle="Technology is the future, and SEO is part of that. It's a necessary part of doing business, no matter how small the business."
 content="I don't disagree that having an online presence is necessary, it would just make me sad if all these sites had to have recurring content and a blog and a bunch of filler just to cater to crawlers."
 %}
@@ -95,6 +96,7 @@ Google should know what the website is and return it.
 include info_banner.html
 style="gray"
 title="Counterargument" 
+fontAwesome="fas fa-meteor"
 subtitle="Google is a search engine, not a directory."
 content="Ok I hear this, but I think it's definitely trying to act like a directory. Especially if it intends to [remove URLs from its results in the future](https://www.reddit.com/r/bigseo/comments/def9gg/google_are_removing_urls_entirely_from_the_search/) 🤷‍♂️."
 %}
@@ -109,4 +111,4 @@ These would be the Yelps and Facebooks and TripAdvisors of the world. They becom
 #### Conclusion
 
 {:.container}
-In true software engineering fashion, writing this post has taken more time than I will ever spend trying to get to red mill's website, and way more time than it would take to bookmark their site.
+In true software engineering fashion, writing this post has taken more time than I will ever spend trying to get to red mill's website, and way more time than it would take to bookmark it.
