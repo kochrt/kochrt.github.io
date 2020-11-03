@@ -8,6 +8,7 @@ imgs:
   - https://lh3.googleusercontent.com/5svMZOQr5G8a9_87aJQyekUteEGRXChN-x-JUgtcenCoS6TRZ-0OOx0T9BQtnwWs13-xObl95lzqskyiHpb81oeL4KaMsCnaz3H0fyg2Lji9ELqP75TWCm0OIHyq7RkTM0ubFyC4izA=w2400
   - https://lh3.googleusercontent.com/hCwfXBcsJIRdknNJfZHuDu7KF4yz_QTefaOJEWZXo8gsh0QdsO7AIl35cYF8LgqCKpjMvm3Ptc4KZ72mmwA9Ot7QIK8Gy7OWb43Jb2ozwyP5dccByA2f4VGiyKcP6psPM7J_LOWvz60=w2400
   - https://lh3.googleusercontent.com/tFdZw7QON4YpG2fD4p3WkfyR4MUrkwZ4JAk6iLFy1ANbEfk4iarT-Bm-tO9qRcbq3_2m35qW1WsQF3E-n8NjNLtohLhgSGlMiN7JsO7l3ohKJIpza6XOEwNl9fEtiKUf52GWlER64Yk=w2400
+  - https://lh3.googleusercontent.com/Gyn0irJSkaKY4g-2AnijIVnShO9b1xiRWjYn3DtBOG2wVQqft_yKdeM-QwNTe2bnpZMC1jd5_0vomt8wJTybX6dvZ2ONn-A9LsJxtlfc-a-kyexMqv5xW4Nl_GeSnRs99vDduEGGcjI=w2400
 ---
 {:.container.mb-1}
 > Red Mill Burgers in Seattle has some great burgers. They make them quickly and they're a good size. But I swear to God, Google doesn't give me the correct damn search results when I go to Google them. I mean Jesus FUcking christ i just want to order their delicious burgers online.
@@ -49,6 +50,16 @@ Now, the observant among you will notice that their website actually is here: wh
 
 {:.container}
 But I don't trust these. Why? There's a difference between a link that says "Red Mill Burgers" versus a button that says "Website." And there's no visible URL unlike the other results. It's like I have no idea where it will take me; for all I know it will direct me to one of the top links above, of which, again, none are the restaurant's site. This is more pronounced on mobile where you can't hover above a link to see where it will take you. 
+
+{:.container.pt-3}
+#### Other search engines
+
+{:.container}
+Bing and DuckDuckGo have the same problem, though Bing has more "Website" buttons, so that's nice, I guess?
+
+{% assign index = index | plus: 1 %}
+{% assign image = page.imgs[index] %}
+{% include stop_image.html img=image thin=true caption="This is what Bing results look like" %}
 
 {:.container.pt-3}
 #### Question: Whose fault is this?
@@ -106,6 +117,12 @@ content="Ok I hear this, but I think it's definitely trying to act like a direct
 
 {:.container}
 These would be the Yelps and Facebooks and TripAdvisors of the world. They become less and less interesting to me over time, because they're all the same - some questionable reviews, some pictures, contact information, all of which are at varying degrees of outdated-ness. And what do I end up looking for on these pages anyway? **Their website.**
+
+{:.container.pt-3}
+#### Isn't Toast what they use for online ordering? Isn't that the first result?
+
+{:.container}
+Yeah that first result is for Phinney Ridge. I go to Interbay.
 
 {:.container.pt-3}
 #### Conclusion
