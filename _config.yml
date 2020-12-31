@@ -1,4 +1,4 @@
-port: 4001
+port: 6543
 
 title: Rob Koch
 url: 'http://robko.ch'
