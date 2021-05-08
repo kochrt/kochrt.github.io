@@ -7,22 +7,16 @@ layout: compress
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
 {% include head.html %}
 
-<body class="has-background">
+<body class="has-background bg-darker">
     <div class="wrapper">
         {% include sidebar.html %}
         
-        <div class="main-wrapper resume-body">
+        <div class="main-wrapper resume-body bg-dark">
            
            {{ content }}
             
         </div><!--//main-body-->
     </div>
-{% if site.light %}
-
-{% else %}
-{% include footer.html %}
-{% endif %} 
- 
 {% include scripts.html %}
 </body>
 </html> 

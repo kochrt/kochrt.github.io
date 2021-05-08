@@ -1,92 +1,55 @@
 ---
 layout: resume
 title: Rob Koch Resume
-# Projects
-projects: [
-  {
-    label: "Toe Codes",
-    img: "toe logo",
-    url: "https://toecodes.com", 
-    details: "QR codes as a service. Create self-contained QR codes where scanners can see images, contact information, check in and chat all without redirecting to a random website. Embed a message into the physical code pattern.",
-  },
-  {
-    label: "JobsBox",
-    img: "briefcase",
-    url: "https://github.com/kochrt/jobsbox",
-    details: "Python webscraper for <a href=\"https://whoishiring.io\">whoishiring.io</a> based on keywords",
-    stack: [
-      ["Python.png", "Python"],
-    ]
-  },
-  {
-    label: "Patterson Bridge", 
-    img: "pb",
-    url: "https://www.pattersonbridge.com", 
-    details: "Site to help students find other students to work on projects together. Written in Angular2 with Google's Firebase as a backend.",
-    stack: [
-      ["Angular2.png", "Angular2"], 
-      ["Firebase.jpeg", "Firebase"],
-    ]
-  },
-  {
-    label: "Patterson Bridge iOS app", 
-    img: "pb",
-    url: "https://itunes.apple.com/us/app/patterson-bridge/id1178426060?mt=8", 
-    details: "Full-featured iOS client for Patterson Bridge. Written in Swift 3 for iPad and iPhone.",
-    stack: [
-      ["iOS.png", "iOS"], 
-      ["Swift.jpeg", "Swift"], 
-      ["Firebase.jpeg", "Firebase"]
-    ]
-  },
-  {
-    label: "Project Dragonfly iOS app", 
-    img: "Project Dragonfly",
-    url: "https://github.com/kochrt/ProjectDragonfly", 
-    details: "Swift 3 iOS app to encourage kids to explore their environment and ask scientific questions",
-    stack: [
-      ["iOS.png", "iOS"], 
-      ["Swift.jpeg", "Swift"]
-    ]
-  }
-]
-
 # Work experience
 experiences: [
   {
-    title: "Software Engineer",
-    img: "google.png",
-    company: "Google",
-    url: "https://www.google.com",
+    title: "Founder",
+    company: "Swink - Simple Web Links with Analytics",
+    img: "https://icons.duckduckgo.com/ip2/sw.ink.ico",
+    url: "https://sw.ink",
     location: "Seattle, WA",
-    time: "Oct 2018 - Current",
+    time: "Feb 2021 - Current",
     details: [
-      "Integrated search bar on the home screen, the largest visual change in the product's recent history, which led to a <b>2x increase</b> in seach users and a <b>50% increase</b> in search clicks",
-      "Designed and implemented the ability for users to select multiple messages, which is used over <b>2M times/day</b>",
-      "Designed and implemented heuristically identifying, and automatically replying to, carrier requests to users for spam phone numbers, which is used <b>10k times/day</b> across all users",
-      "Designed and implemented experiments for increasing the CTR of RCS promotions, leading to a <b>22% increase</b> in user sign-ups",
+      "Nuxt/Vue on Google Cloud",
+      "Dynamic short links and automatically branded QR codes with analytics",
+      "Swink Prefix"
     ]
   },
   {
     title: "Software Engineer",
-    img: "cladwell.png",
+    img: "https://icons.duckduckgo.com/ip2/google.com.ico",
+    company: "Google",
+    url: "https://www.google.com",
+    location: "Seattle, WA",
+    time: "Oct 2018 - Feb 2021",
+    details: [
+      "Integrated search bar on the home screen, the largest visual change in the product's recent history, which led to a 2x increase in seach users and a 50% increase in search clicks",
+      "Designed and implemented the ability for users to select multiple messages, which is used over 2M times/day",
+      "Designed and implemented heuristically identifying, and automatically replying to, carrier requests to users for spam phone numbers, which is used 10k times/day across all users",
+      "Designed and implemented experiments for increasing the CTR of RCS promotions, leading to a 22% increase in user sign-ups",
+    ]
+  },
+  {
+    title: "Software Engineer",
+    img: "/assets/images/cladwell.png",
     company: "Cladwell",
     url: "https://cladwell.com",
     location: "Cincinnati, OH",
     time: "May 2017 - May 2018",
     details: [
       "Converted iOS app from a thick to a thin client in conjuction with API rollout",
-      "Reduced instances of crashing by <b>an order of magnitude</b>, while simultaneously adding new features",
-      "Raised app rating from <b>3.x to 4.4+</b>",
+      "Reduced instances of crashing by an order of magnitude, while simultaneously adding new features",
+      "Raised app rating from 3.x to 4.4+",
       "Led Growth Team engineering efforts to exponentially increase customer base",
       "Implemented a fully redesigned in-app onboarding process to increase retention at the top-most level of our user acquisition funnel",
     ]
   },
   {
     title: "Software Engineer",
-    img: "cfs.png",
-    company: "Cash Flow Solutions",
-    url: "https://followthefrog.com",
+    img: "https://icons.duckduckgo.com/ip2/ribbit.ai.ico",
+    company: "RIBBIT.ai",
+    url: "https://ribbit.ai",
     location: "Oxford, OH",
     time: "2016 - 2017",
     details: [ 
@@ -96,7 +59,7 @@ experiences: [
   },
   {
     title: "Cloud Engineer",
-    img: "cardinal.png",
+    img: "/assets/images/cardinal.png",
     company: "Cardinal Health",
     url: "https://cardinalhealth.com",
     location: "Columbus, OH",
@@ -108,7 +71,7 @@ experiences: [
   },
   {
     title: "Research Fellow",
-    img: "proctergamble.png",
+    img: "https://icons.duckduckgo.com/ip2/us.pg.com.ico",
     company: "Procter & Gamble",
     url: "https://us.pg.com",
     location: "Cincinnati, OH",
@@ -123,17 +86,15 @@ experiences: [
 # Skills
 skills: [
   "Swift, XCode, iOS",
-  "Java",
-  "Angular2, Typescript",
-  "HTML, CSS, Javascript",
+  "Java", "Kotlin",
+  "Typescript", "Vue", "Nuxt",
   "Python, Jupyter Notebooks",
   "Android, Android Studio",
-  "AWS",
+  "AWS", "Google Cloud",
   "Whatever gets the job done",
 ]
 ---
 {% include experience.html %}
-{% include projects.html %}
 {% if site.light %}
 
 {% else %}
