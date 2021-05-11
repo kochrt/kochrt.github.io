@@ -11,9 +11,9 @@ experiences: [
     location: "Seattle, WA",
     time: "Feb 2021 - Current",
     details: [
-      "Nuxt/Vue on Google Cloud",
       "Dynamic short links and automatically branded QR codes with analytics",
-      "Swink Prefix"
+      "From Firebase hosting and SPA Vue to SSR Nuxt/Vue on Google App Engine with external API",
+      "Stripe, Github Actions for CI/CD, Playwright for testing",
     ]
   },
   {
