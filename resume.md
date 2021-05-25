@@ -12,8 +12,10 @@ experiences: [
     time: "Feb 2021 - Current",
     details: [
       "Dynamic short links and automatically branded QR codes with analytics",
-      "From Firebase hosting and SPA Vue to SSR Nuxt/Vue on Google App Engine with external API",
+      "SSR Nuxt/Vue on Google App Engine and external API",
       "Stripe, Github Actions for CI/CD, Playwright for testing",
+      "Reddit qr_bot"
+      # blogging/marketing
     ]
   },
   {
@@ -67,6 +69,17 @@ experiences: [
     details: [
       "Managed, redesigned, and partially automated the internal requisition process for Amazon Web Services (AWS) resources",
       "Automated solutions for logging into VDI, sending customer emails, and Neo4j graph database queries using Python"
+    ]
+  },
+  {
+    title: "English Teacher",
+    # img: "/assets/images/translate.png",
+    company: "Various Universities",
+    location: "Changsha, Shaoxing, and Hangzhou, China",
+    time: "2012-2015",
+    details: [
+      "Taught conversational English to University classes in 3 schools over 3 years",
+      "Learned Chinese"
     ]
   },
   {
