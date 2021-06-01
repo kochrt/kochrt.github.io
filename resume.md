@@ -14,7 +14,6 @@ experiences: [
       "Dynamic short links and automatically branded QR codes with analytics",
       "SSR Nuxt/Vue on Google App Engine and external API",
       "Stripe, Github Actions for CI/CD, Playwright for testing",
-      "Reddit qr_bot"
       # blogging/marketing
     ]
   },
