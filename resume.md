@@ -78,7 +78,7 @@ experiences: [
     time: "2012-2015",
     details: [
       "Taught conversational English to University classes in 3 schools over 3 years",
-      "Learned Chinese"
+      "Learned Chinese 但是最近越来越懒了"
     ]
   },
   {
