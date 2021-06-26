@@ -8,27 +8,6 @@
 </div>
 {% endif %}
 <section class="section experiences-section">
-  {% if page.open_source %}
-  <div class="pb-4">
-    <h3 class="job-title text-light mb-2">Open source software</h3>
-    {% for openSource in page.open_source %}
-    <div class="row-wrapper pb-2">
-      <div class="d-flex flex-row align-items-center">
-        <div class="" style="margin-right: 16px;">
-          <img style="width: 30px" src="{{ openSource.img }}">
-        </div>
-        <div class="d-flex flex-column align-items-baseline">
-          <h3 class="job-title text-light"><a href="{{openSource.url}}">{{ openSource.title }}</a></h3>
-          <a href="{{ openSource.github }}" class="">Github</a>
-        </div>
-      </div>
-      <div class="details">
-        <p>{{ openSource.description }}</p>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-  {% endif %}
   {% for experience in page.experiences %}
   <div class="item">
     <div class="meta">
@@ -68,6 +47,26 @@
   </div>
   <!--//item-->
   {% endfor %}
-
+  {% if page.open_source %}
+  <div class="pb-4">
+    <h3 class="job-title text-light mb-2">Open source software</h3>
+    {% for openSource in page.open_source %}
+    <div class="row-wrapper pb-2">
+      <div class="d-flex flex-row align-items-center">
+        <div class="" style="margin-right: 16px;">
+          <img style="width: 30px" src="{{ openSource.img }}">
+        </div>
+        <div class="d-flex flex-column align-items-baseline">
+          <h3 class="job-title text-light"><a href="{{openSource.url}}">{{ openSource.title }}</a></h3>
+          <a href="{{ openSource.github }}" class="">Github</a>
+        </div>
+      </div>
+      <div class="details">
+        <p>{{ openSource.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
 </section>
 <!--//section-->
