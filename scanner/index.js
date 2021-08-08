@@ -13806,16 +13806,19 @@
               throw new FormatException();
           }
           this.bitMatrix = bitMatrix;
-          let matrix = bitMatrix.clone()
-          let interpretedCode = ''
-          for (let i = 0; i < matrix.height; i++) {
-            let row = ''
-            for (let j = matrix.width - 1; j >= 0; j--) {
-              row += matrix.get(i, j) ? '⬛️' : '⬜️'
+          if (matrix.height >= 40 && matrix.height <= 42) {
+            let matrix = bitMatrix.clone()
+            let interpretedCode = ''
+            for (let i = 0; i < matrix.height; i++) {
+              let row = ''
+              for (let j = matrix.width - 1; j >= 0; j--) {
+                row += matrix.get(i, j) ? '⬛️' : '⬜️'
+              }
+              interpretedCode += `${row}\n`
             }
-            interpretedCode += `${row}\n`
+            document.getElementById('bitMatrix').innerText = interpretedCode
           }
-          document.getElementById('bitMatrix').innerText = interpretedCode
+          
       }
       /**
        * <p>Reads format information from one of its two locations within the QR Code.</p>
