@@ -16,16 +16,22 @@ open_source:
     github: https://github.com/kochrt/list
     img: https://icons.duckduckgo.com/ip3/thelistofcompanies.com.ico
 
+  - title: imnew.to
+    description: Get added to a group chat with newly relocated people in your city
+    url: https://imnew.to
+    github: htts://github.com/kochrt/imnewto
+    img: https://icons.duckduckgo.com/ip3/imnew.to.ico
+
 experiences: 
   - title: "Founder"
-    company: "Swink - Simple Web Links with Analytics"
+    company: "Swink & qr.new"
     img: "https://icons.duckduckgo.com/ip2/sw.ink.ico"
     url: "https://sw.ink"
     location: "Seattle, WA"
     time: "Feb 2021 - Current"
     details:
-      - "Dynamic short links and automatically branded, human readable QR codes with analytics"
-      - "SSR Nuxt/Vue on Google App Engine and external API"
+      - "Swink is a QR design app with dynamic short links with simple analytics"
+      - "Web app and API with SSR Nuxt/Vue on Google App Engine"
       - "Stripe, Github Actions for CI/CD, Playwright for testing"
   
   - title: "Software Engineer"
@@ -50,20 +56,8 @@ experiences:
       - "Converted iOS app from a thick to a thin client in conjuction with API rollout"
       - "Reduced instances of crashing by an order of magnitude, while simultaneously adding new features"
       - "Raised app rating from 3.x to 4.4+"
-      - "Led Growth Team engineering efforts to exponentially increase customer base"
-      - "Implemented a fully redesigned in-app onboarding process to increase retention at the top-most level of our user acquisition funnel"
-    
-  - title: "Software Engineer"
-    img: "https://icons.duckduckgo.com/ip2/ribbit.ai.ico"
-    company: "RIBBIT.ai"
-    url: "https://ribbit.ai"
-    location: "Oxford, OH"
-    time: "2016 - 2017"
-    details:
-      - "Created a javascript payment processing plugin for clients as a one-line alternative to interacting directly with our API"
-      - "Migrated company website out of Wordpress to independent HTML/CSS/JS"
 
-  - title: "Cloud Engineer"
+  - title: "Cloud Engineering Intern"
     img: "/assets/images/cardinal.png"
     company: "Cardinal Health"
     url: "https://cardinalhealth.com"
