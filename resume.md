@@ -5,7 +5,7 @@ title: Rob Koch Resume
 
 open_source:
   - title: cascade.page
-    description: Create cascading timelines
+    description: Create and share cascading timelines
     url: https://cascade.page
     github: https://github.com/kochrt/timeline-maker
     img: https://icons.duckduckgo.com/ip3/cascade.page.ico
@@ -17,7 +17,7 @@ open_source:
     img: https://icons.duckduckgo.com/ip3/thelistofcompanies.com.ico
 
   - title: imnew.to
-    description: Get added to a group chat with newly relocated people in your city
+    description: Get added to a group chat with other newly relocated people in your city
     url: https://imnew.to
     github: htts://github.com/kochrt/imnewto
     img: https://icons.duckduckgo.com/ip3/imnew.to.ico
@@ -34,7 +34,7 @@ experiences:
       - "Web app and API with SSR Nuxt/Vue on Google App Engine"
       - "Stripe, Github Actions for CI/CD, Playwright for testing"
   
-  - title: "Software Engineer"
+  - title: "Software Engineer, Google Messages"
     img: "https://icons.duckduckgo.com/ip2/google.com.ico"
     company: "Google"
     url: "https://www.google.com"
