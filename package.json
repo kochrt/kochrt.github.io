@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "serve": "arch -x86_64 jekyll serve"
+  }
+}
