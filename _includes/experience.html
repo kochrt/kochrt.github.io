@@ -1,19 +1,11 @@
-{% if site.light %}{% else %}
-<div class="d-flex flex-row mb-2">
-  <div class="ml-auto">
-    <a class="btn btn-sm btn-secondary py-0" href="/resume.pdf"><i class="fa fa-file-pdf-o mr-2"></i>PDF</a>
-    <a class="btn btn-sm btn-secondary py-0 ml-1" href="https://cascade.page"><i
-        class="fas fa-stream mr-2"></i>Timeline</a>
-  </div>
-</div>
-{% endif %}
+
 <section class="section experiences-section">
   {% for experience in page.experiences %}
   <div class="item">
     <div class="meta">
       {% if experience.img %}
       <div class="img-wrapper">
-        <img src="{{ experience.img }}">
+        <img src="{{ experience.img }}" />
       </div>
       {% endif %}
       <div class="row-wrapper">
@@ -24,40 +16,37 @@
         <!--//upper-row-->
 
         <div class="company">
-          {% if experience.url %}<a href="{{ experience.url }}"> {% endif %}
-            {{ experience.company }}{% if experience.url %}</a>{% endif %} - {{ experience.location }}
+          {% if experience.url %}<a href="{{ experience.url }}">
+            {% endif %} {{ experience.company }}{% if experience.url %}</a
+          >{% endif %} - {{ experience.location }}
         </div>
       </div>
-
     </div>
     <!--//meta-->
 
     <div class="details">
       {% for sub in experience.details %}
       <p>{{ sub }}</p>
-      {% if experience.images %}
-      {% if experience.images[forloop.index] %}
-      <img src="/assets/images/{{ experience.images[forloop.index] }}">
-      {% endif %}
-      {% endif %}
-      {% endfor %}
+      {% if experience.images %} {% if experience.images[forloop.index] %}
+      <img src="/assets/images/{{ experience.images[forloop.index] }}" />
+      {% endif %} {% endif %} {% endfor %}
     </div>
     <!--//details-->
-
   </div>
   <!--//item-->
-  {% endfor %}
-  {% if page.open_source %}
+  {% endfor %} {% if page.open_source %}
   <div class="pb-4">
     <h3 class="job-title text-light mb-2">Open source software</h3>
     {% for openSource in page.open_source %}
     <div class="row-wrapper pb-2">
       <div class="d-flex flex-row align-items-center">
-        <div class="" style="margin-right: 16px;">
-          <img style="width: 30px" src="{{ openSource.img }}">
+        <div class="" style="margin-right: 16px">
+          <img style="width: 30px" src="{{ openSource.img }}" />
         </div>
         <div class="d-flex flex-column align-items-baseline">
-          <h3 class="job-title text-light"><a href="{{openSource.url}}">{{ openSource.title }}</a></h3>
+          <h3 class="job-title text-light">
+            <a href="{{openSource.url}}">{{ openSource.title }}</a>
+          </h3>
           <a href="{{ openSource.github }}" class="">Github</a>
         </div>
       </div>

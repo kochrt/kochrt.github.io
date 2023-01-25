@@ -175,7 +175,7 @@ hr {
 
 .main-wrapper {
   background: #fff;
-  padding: 60px;
+  padding: 30px;
   padding-left: 300px;
   .section-title {
     text-transform: uppercase;
@@ -207,9 +207,7 @@ hr {
       top: -2px;
     }
   }
-  .section {
-    margin-bottom: 60px;
-  }
+  
   .experiences-section {
     .item {
       margin-bottom: 30px;
@@ -230,7 +228,6 @@ hr {
         img {
           width: 30px;
           max-height: 100%;
-          background-color: white;
           border-radius: 0.3rem;
         }
       }
