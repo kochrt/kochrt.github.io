@@ -25,21 +25,16 @@ sidebar:
       - AWS, Google Cloud
       - Whatever gets the job done
 
-Sep 2022 - now: Founder/Creator 
-Markwhen & [Markwhen.com](https://markwhen.com)
+Sep 2022 - now: Founder 
+[Markwhen.com](https://markwhen.com)
 [Brooklyn, NY](location)
 ![](https://markwhen.com/favicon.png)
 
-- Markwhen is like markdown but for visualizing series of events
-- Created both the language and the editor 
-- Ability to create your own views using the [view client library](https://github.com/mark-when/vue-view-template)
-- [2.3k stars on github](https://github.com/mark-when/markwhen)
-- [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen)
-- Vue, google cloud, cloudflare, node
-- This resume was written in markwhen using the [markwhen editor](https://markwhen.com)
+- Markwhen is a markup language for visualizing series of events, e.g. in a timeline or calendar
+- [Documentation](https://docs.markwhen.com), [Editor & Visualizations](https://markwhen.com), [Github](https://github.com/mark-when/markwhen), [Parser](https://github.com/mark-when/parser), [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen)
 
 Mar 2022 - Sep 2022: Senior Frontend Software Engineer
-Reddit
+[Reddit](https://reddit.com)
 [Seattle, WA](location)
 ![](https://icons.duckduckgo.com/ip2/reddit.com.ico)
 
@@ -56,7 +51,7 @@ Feb 2021 - Mar 2022: Founder
 
 
 Oct 2018 - Feb 2021: Software Engineer, Google Messages
-Google
+[Google](https://google.com)
 [Seattle, WA](location)
 ![](https://icons.duckduckgo.com/ip2/google.com.ico)
 
@@ -69,7 +64,7 @@ Google
 - Designed and implemented experiments for increasing the CTR of RCS promotions, leading to a 22% increase in user sign-ups
 
 May 2017 - May 2018: Software Engineer
-Cladwell [Cincinnati, OH](location)
+[Cladwell](https://cladwell.com) [Cincinnati, OH](location)
 
 ![](https://images.squarespace-cdn.com/content/v1/5f7f5aa57a40bd0a058c9792/1605031211115-O45I0F44B8MQV6PO5QF4/favicon.ico?format=100w)
 - Converted iOS app from a thick to a thin client in conjuction with API rollout
@@ -77,9 +72,9 @@ Cladwell [Cincinnati, OH](location)
 - Raised app rating from 3.x to 4.4+
 
 2016: Cloud Engineering Intern
-Cardinal Health [Columbus, OH](location)
-![](https://cardinalhealth.com/content/dam/corp/web/logos/favicon.ico)
-- Managed, redesigned, and partially automated the internal requisition process for Amazon Web Services (AWS) resources
+[Cardinal Health](https://cardinalhealth.com) [Columbus, OH](location)
+![](https://media.licdn.com/dms/image/D560BAQGlpuOGnlMGkw/company-logo_100_100/0/1680531080164?e=1693440000&v=beta&t=1NKy0f4wexGo5KFx_Kbw0rhr_Zi5Bfh4Da3Vrt9HCng)
+- Automated the internal requisition process for Amazon Web Services resources
 
 2012 - 2015: English Teacher
 Various Universities [Changsha, Shaoxing, and Hangzhou, China](location)

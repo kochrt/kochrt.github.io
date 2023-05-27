@@ -3,10 +3,10 @@ const puppeteer = require('puppeteer');
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto('http://localhost:6543/resume', {
+  await page.goto('file:///Users/robkoch/Downloads/resume%20(13).html', {
     waitUntil: 'networkidle2'
   });
-  await page.emulateMedia('screen');
+  // await page.emulateMedia('screen');
   await page.setViewport({
     width: 1920,
     height: 1200
@@ -15,7 +15,7 @@ const puppeteer = require('puppeteer');
   await page.pdf({
     path: 'resume.pdf',
     width: 900,
-    height: 1700,
+    height: 1180,
     printBackground: true
   });
 
