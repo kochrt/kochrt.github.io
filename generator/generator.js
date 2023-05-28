@@ -9,13 +9,13 @@ const puppeteer = require('puppeteer');
   // await page.emulateMedia('screen');
   await page.setViewport({
     width: 1920,
-    height: 1200
+    height: 1230
   });
   // let height = await page.evaluate(() => document.documentElement.offsetHeight);
   await page.pdf({
     path: 'resume.pdf',
     width: 900,
-    height: 1180,
+    height: 1210,
     printBackground: true
   });
 
