@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 (async () => {
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
-  await page.goto('file:///Users/robkoch/Downloads/resume%20(13).html', {
+  await page.goto('file:///Users/robkoch/kochrt.github.io/resume.html', {
     waitUntil: 'networkidle2'
   });
   // await page.emulateMedia('screen');
