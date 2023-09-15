@@ -19,36 +19,44 @@ sidebar:
   
   - name: technologies
     items: 
-      - Swift, XCode, iOS
+      - Frontend - Javascript, Typescript, Vue, Nuxt, React
+      - Backend - Node, Python
+      - Google Cloud, Cloudflare, AWS
       - Android, Android Studio
-      - Typescript, Vue, Nuxt, React
-      - AWS, Google Cloud
-      - Whatever gets the job done
+      - Swift, XCode, iOS
 
-Sep 2022 - now: Founder 
+// Founder title? 
+// external feedback - num github stars, num users, reviews, etc.
+Sep 2022 - now: Founder
 [Markwhen.com](https://markwhen.com)
 [Brooklyn, NY](location)
-![](https://markwhen.com/favicon.png)
+![](https://app.markwhen.com/favicon.png)
 
-- Markwhen is a markup language for visualizing series of events, e.g. in a timeline or calendar
-- [Documentation](https://docs.markwhen.com), [Editor & Visualizations](https://markwhen.com), [Github](https://github.com/mark-when/markwhen), [Parser](https://github.com/mark-when/parser), [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen)
+- Markwhen is like markdown for timelines - a markup language for visualizing series of events, e.g. in a timeline or calendar
+- Described as [spectacular](https://twitter.com/tmcw/status/1696232659238719864), [incredible](https://twitter.com/vitalyf/status/1567604791366270979), [absolutely genius](https://www.producthunt.com/products/markwhen?comment=1805431#markwhen), and [awesome](https://twitter.com/zernonia/status/1671768513839775744)
+- As the sole developer, I made the [language](https://github.com/mark-when/parser), the [parser](https://github.com/mark-when/parser), the [editor](https://markwhen.com), and the [visualizations](https://github.com/mark-when/timeline)
+- Vue, React, Cloudflare Workers &  Pages, Google App Engine, Stripe
+- [Github (3K★)](https://github.com/mark-when/markwhen) | [Documentation](https://docs.markwhen.com) | [Editor web app](https://markwhen.com) |  [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen)
 
 Mar 2022 - Sep 2022: Senior Frontend Software Engineer
 [Reddit](https://reddit.com)
 [Seattle, WA](location)
 ![](https://icons.duckduckgo.com/ip2/reddit.com.ico)
 
-- As part of the Premium & Perks team, created a new internal dashboard for customer service to debug and solve customer issues
+- As part of the Premium & Perks team, designed and implemented a new React internal dashboard. 
+- The dashboard is used by customer service members and our team to debug and take action on common customer issues like adjusting coin balances or payment issues.
 
 Feb 2021 - Mar 2022: Founder
-[swink](https://sw.ink) & [qr.new](https://qr.new) (domains have since lapsed)
+[swink](https://github.com/kochrt/qr-designer)
 
 ![](https://media.markwhen.com/7mGszd2clHRHudsf0lLX4Kb1ChI3/a96e-e7be-5b21-1a59.png)
 
 - Swink was a QR design app with dynamic short links with simple analytics
+- I created a novel way to embed any image into the middle area of a QR code without taking advantage of error correction, open sourced [here](https://github.com/kochrt/qr-designer); the [live designer is here](https://robko.ch/qr-designer)
 - Web app and API with SSR Nuxt/Vue on Google App Engine
 - Stripe, Github Actions for CI/CD, Playwright for testing
 
+- [Github (2.4K★)](https://github.com/kochrt/qr-designer) | [Designer web app](https://robko.ch/qr-designer) | [HN discussion](https://news.ycombinator.com/item?id=36128082)
 
 Oct 2018 - Feb 2021: Software Engineer, Google Messages
 [Google](https://google.com)
@@ -70,11 +78,6 @@ May 2017 - May 2018: Software Engineer
 - Converted iOS app from a thick to a thin client in conjuction with API rollout
 - Reduced instances of crashing by an order of magnitude, while simultaneously adding new features
 - Raised app rating from 3.x to 4.4+
-
-2016: Cloud Engineering Intern
-[Cardinal Health](https://cardinalhealth.com) [Columbus, OH](location)
-![](https://media.licdn.com/dms/image/D560BAQGlpuOGnlMGkw/company-logo_100_100/0/1680531080164?e=1693440000&v=beta&t=1NKy0f4wexGo5KFx_Kbw0rhr_Zi5Bfh4Da3Vrt9HCng)
-- Automated the internal requisition process for Amazon Web Services resources
 
 2012 - 2015: English Teacher
 Various Universities [Changsha, Shaoxing, and Hangzhou, China](location)
