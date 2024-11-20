@@ -28,22 +28,27 @@ sidebar:
 // Founder title? 
 // external feedback - num github stars, num users, reviews, etc.
 
+Apr 2024 - now: Digital Service Expert
+[Defense Digital Service](https://dds.mil)
+![](https://pbs.twimg.com/profile_images/1619056701688143872/ceFEI8MS_400x400.png)
+
+- Tech lead for DDS involvment with National Background Investigation Service - helping to make background investigations better for the entire federal government
 
 Sep 2022 - now: Markwhen
+location: Seattle, WA
 [markwhen.com](https://markwhen.com) · [meridiem.markwhen.com](https://meridiem.markwhen.com) · [GitHub](https://github.com/mark-when)
-[Brooklyn, NY](location)
 ![](https://docs.markwhen.com/icon_192.png)
 
 - Created [Markwhen](https://markwhen.com), a [markup language](https://github.com/mark-when/parser) for visualizing series of events e.g. in a [timeline](https://github.com/mark-when/timeline) or [calendar](https://github.com/mark-when/calendar)
-- Created [Meridiem](https://meridiem.markwhen.com), a full-featured, real-time collaborative editor for the markwhen language, available as a progressive web app and as a downloadable binary
+- Created [Meridiem](https://meridiem.markwhen.com), a full-featured, real-time collaborative editor for the markwhen language, available as a progressive web app and as a downloadable binary (electron)
 - Described as [spectacular](https://twitter.com/tmcw/status/1696232659238719864), [incredible](https://twitter.com/vitalyf/status/1567604791366270979), [absolutely genius](https://www.producthunt.com/products/markwhen?comment=1805431#markwhen), and [awesome](https://twitter.com/zernonia/status/1671768513839775744)
 - Vue, Electron, Cloudflare Workers & Pages, Google App Engine, Stripe, CodeMirror, Node
-- Managed bug reports and feature requests from Github Issues and discord forum, sent regular newsletter emails
-- [Github (3K★)](https://github.com/mark-when/markwhen) | [Documentation](https://docs.markwhen.com) | [Meridiem](https://meridiem.markwhen.com) |  [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen)
+- [Obsidian Plugin](https://obsidian.md/plugins?id=markwhen) | [Documentation](https://docs.markwhen.com) | [Meridiem](https://meridiem.markwhen.com) |  [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen) | [Github (3K★)](https://github.com/mark-when/markwhen) 
 
 Mar 2022 - Sep 2022: Senior Frontend Software Engineer
+location: Seattle, WA
 [Reddit](https://reddit.com)
-[Seattle, WA](location)
+
 ![](https://icons.duckduckgo.com/ip2/reddit.com.ico)
 
 - As part of the Premium & Perks team, designed and implemented a new React internal dashboard. 
@@ -62,8 +67,9 @@ Feb 2021 - Mar 2022: Swink
 - [Github (2.4K★)](https://github.com/kochrt/qr-designer) | [Designer web app](https://robko.ch/qr-designer) | [HN discussion](https://news.ycombinator.com/item?id=36128082)
 
 Oct 2018 - Feb 2021: Software Engineer, Google Messages
+location: Seattle, WA
 [Google](https://google.com)
-[Seattle, WA](location)
+
 ![](https://icons.duckduckgo.com/ip2/google.com.ico)
 
 - Integrated search bar on the home screen, the largest visual change in the product's recent history, which led to a 2x increase in seach users and a 50% increase in search clicks
@@ -75,7 +81,8 @@ Oct 2018 - Feb 2021: Software Engineer, Google Messages
 - Designed and implemented experiments for increasing the CTR of RCS promotions, leading to a 22% increase in user sign-ups
 
 May 2017 - May 2018: Software Engineer
-[Cladwell](https://cladwell.com) [Cincinnati, OH](location)
+location: Cincinnati, OH
+[Cladwell](https://cladwell.com)
 
 ![](https://images.squarespace-cdn.com/content/v1/5f7f5aa57a40bd0a058c9792/1605031211115-O45I0F44B8MQV6PO5QF4/favicon.ico?format=100w)
 - Converted iOS app from a thick to a thin client in conjuction with API rollout
@@ -83,7 +90,8 @@ May 2017 - May 2018: Software Engineer
 - Raised app rating from 3.x to 4.4+
 
 2012 - 2015: English Teacher
-Various Universities [Changsha, Shaoxing, and Hangzhou, China](location)
+location: Changsha, Shaoxing, and Hangzhou, China
+Various Universities
 - Taught conversational English to University classes in 3 schools over 3 years
 
-- Learned Chinese 但是最近越来越懒了
+- Learned Chinese 但是最近我的中文越来越懒了
