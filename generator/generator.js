@@ -15,7 +15,7 @@ const puppeteer = require('puppeteer');
   await page.pdf({
     path: 'resume.pdf',
     width: 900,
-    height: 1500,
+    height: 1560,
     printBackground: true
   });
 
