@@ -19,21 +19,18 @@ sidebar:
   
   - name: technologies
     items: 
-      - Frontend - Javascript, Typescript, Vue, Nuxt, React
+      - Frontend - Javascript, Typescript, React, Vue, Nuxt
       - Backend - Node, Python
       - Google Cloud, Cloudflare, AWS
       - Android, Android Studio
       - Swift, XCode, iOS
 
-// Founder title? 
-// external feedback - num github stars, num users, reviews, etc.
-
 Apr 2024 - now: Digital Services Expert
 [Defense Digital Service](https://dds.mil) · [dds.mil](https://dds.mil) · [ai.mil](https://www.ai.mil)
 ![](https://pbs.twimg.com/profile_images/1619056701688143872/ceFEI8MS_400x400.png)
 
-- Led 3 engineers to architect and implement the [Personnel Vetting Questionnaire](https://www.reginfo.gov/public/do/PRAViewIC?ref_nbr=202404-0503-001CF&icID=266472), the replacement for the [SF86](https://www.opm.gov/forms/pdf_fill/sf86.pdf), for use by all agencies of the federal government
-- Identified and coordinated with agency stakeholders (federal agencies that require or support background investigations and personnel vetting) to develop requirements for PVQ
+- Led engineering team to architect and implement the [Personnel Vetting Questionnaire](https://www.reginfo.gov/public/do/PRAViewIC?ref_nbr=202404-0503-001CF&icID=266472), the replacement for the [SF86](https://www.opm.gov/forms/pdf_fill/sf86.pdf), for use by all agencies of the federal government
+- Arbitrated PVQ application scope and requirements between federal agencies, investigative service providers, and policymakers
 
 Sep 2022 - now: Creator and Open Source Maintainer
 location: Seattle, WA
@@ -43,8 +40,7 @@ location: Seattle, WA
 - Created [Markwhen](https://markwhen.com), a [markup language](https://github.com/mark-when/parser) for visualizing series of events e.g. in a [timeline](https://github.com/mark-when/timeline) or [calendar](https://github.com/mark-when/calendar)
 - Created [Meridiem](https://meridiem.markwhen.com), a full-featured, real-time collaborative editor for the markwhen language, available as a progressive web app and as a downloadable binary (electron)
 - Described as [fantastic](https://news.ycombinator.com/item?id=42289690), [spectacular](https://twitter.com/tmcw/status/1696232659238719864), [incredible](https://twitter.com/vitalyf/status/1567604791366270979), [absolutely genius](https://www.producthunt.com/products/markwhen?comment=1805431#markwhen), and [awesome](https://twitter.com/zernonia/status/1671768513839775744)
-- Vue, Electron, Cloudflare Workers & Pages, Google App Engine, Stripe, CodeMirror, Node
-- [Obsidian Plugin](https://obsidian.md/plugins?id=markwhen) | [Documentation](https://docs.markwhen.com) | [Meridiem](https://meridiem.markwhen.com) |  [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen) | [Github (4K★)](https://github.com/mark-when/markwhen) 
+- [Github (4K★)](https://github.com/mark-when/markwhen)  | [Obsidian Plugin](https://obsidian.md/plugins?id=markwhen) | [Documentation](https://docs.markwhen.com) | [Meridiem](https://meridiem.markwhen.com) |  [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen)
 
 Mar 2022 - Sep 2022: Senior Frontend Software Engineer
 location: Seattle, WA
@@ -52,19 +48,15 @@ location: Seattle, WA
 
 ![](https://icons.duckduckgo.com/ip2/reddit.com.ico)
 
-- As part of the Premium & Perks team, designed and implemented a new React internal dashboard. 
-- The dashboard is used by customer service members and our team to debug and take action on common customer issues like adjusting coin balances or payment issues.
+- Designed and implemented a greenfield internal dashboard, used by customer service members and our team to debug and take action on common customer issues like adjusting coin balances or payment issues.
 
 Feb 2021 - Mar 2022: Creator and Open Source Maintainer
 [QR Designer](https://github.com/kochrt/qr-designer)
 
 ![](https://media.markwhen.com/7mGszd2clHRHudsf0lLX4Kb1ChI3/a96e-e7be-5b21-1a59.png)
 
-- A QR design app with dynamic short links with simple analytics
-- Created a novel way to embed any image into the middle area of a QR code without taking advantage of error correction, open sourced [here](https://github.com/kochrt/qr-designer); the [live designer is here](https://robko.ch/qr-designer)
-- Web app and API with SSR Nuxt/Vue on Google App Engine
-- Stripe, Github Actions for CI/CD, Playwright for testing
-
+- Created a QR design app with dynamic short links with simple analytics
+- Pioneered a novel way to embed any image into the middle area of a QR code without taking advantage of error correction, open sourced [here](https://github.com/kochrt/qr-designer); the [live designer is here](https://robko.ch/qr-designer)
 - [Github (2.7K★)](https://github.com/kochrt/qr-designer) | [Designer web app](https://robko.ch/qr-designer) | [HN discussion](https://news.ycombinator.com/item?id=36128082)
 
 Oct 2018 - Feb 2021: Software Engineer, Google Messages
