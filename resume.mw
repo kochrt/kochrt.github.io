@@ -1,9 +1,12 @@
-
 title: Rob Koch
-description: Software Engineering
+description: |
+  Software Engineering
+
+middle: TS/SCI Clearance
+
 contact:
   email: kochrt@gmail.com
-  website: robko.ch
+  website: remark.ing/rob/rob
   linkedIn: linkedin.com/in/kochrt
   github: github.com/kochrt
 
@@ -40,7 +43,7 @@ location: Seattle, WA
 - Created [Markwhen](https://markwhen.com), a [markup language](https://github.com/mark-when/parser) for visualizing series of events e.g. in a [timeline](https://github.com/mark-when/timeline) or [calendar](https://github.com/mark-when/calendar)
 - Created [Meridiem](https://meridiem.markwhen.com), a full-featured, real-time collaborative editor for the markwhen language, available as a progressive web app and as a downloadable binary (electron)
 - Described as [fantastic](https://news.ycombinator.com/item?id=42289690), [spectacular](https://twitter.com/tmcw/status/1696232659238719864), [incredible](https://twitter.com/vitalyf/status/1567604791366270979), [absolutely genius](https://www.producthunt.com/products/markwhen?comment=1805431#markwhen), and [awesome](https://twitter.com/zernonia/status/1671768513839775744)
-- [Github (4K★)](https://github.com/mark-when/markwhen)  | [Obsidian Plugin](https://obsidian.md/plugins?id=markwhen) | [Documentation](https://docs.markwhen.com) | [Meridiem](https://meridiem.markwhen.com) |  [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen)
+- [Github (4K★)](https://github.com/mark-when/markwhen)  | [Documentation](https://docs.markwhen.com) | [Meridiem](https://meridiem.markwhen.com) | [HN Discussion](https://news.ycombinator.com/item?id=42289690) | [Obsidian Plugin](https://obsidian.md/plugins?id=markwhen) | [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Markwhen.markwhen)
 
 Mar 2022 - Sep 2022: Senior Frontend Software Engineer
 location: Seattle, WA
